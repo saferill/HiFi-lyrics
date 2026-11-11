@@ -1,9 +1,5 @@
 {
   "service": "HiFi Lyrics Repository",
-  "version": "1.0.0",
-  "status": "online",
-  "endpoints": {
-    "lyrics": "https://raw.githubusercontent.com/saferill/HiFi-lyrics/refs/heads/main/v1/lyrics/{videoId}.json",
-    "translated": "https://raw.githubusercontent.com/saferill/HiFi-lyrics/refs/heads/main/v1/translated/{videoId}/{language}.json"
-  }
+  "total": 1,
+  "status": "online"
 }
