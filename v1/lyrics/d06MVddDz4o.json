@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "d06MVddDz4o",
+      "videoId": "d06MVddDz4o",
+      "songTitle": "Semua Tentang Kita",
+      "artistName": "Noah",
+      "albumName": "Noah Videos",
+      "durationSeconds": 269,
+      "plainLyric": "Waktu terasa semakin berlalu\nTinggalkan cerita tentang kita\nKini, di mana kucari tawamu\n'Tuk hapuskan semua sepi di hati?\n\nAda cerita tentang aku dan dia\nDan kita bersama saat dulu kala\nAda cerita tentang masa yang indah\nSaat kita berduka, saat kita tertawa\n\nTeringat di saat kita tertawa bersama\nCeritakan semua tentang kita\n\nAda cerita tentang aku dan dia\nDan kita bersama saat dulu kala\nAda cerita tentang masa yang indah\nSaat kita berduka, saat kita tertawa",
+      "syncedLyrics": "[01:25.09] Waktu terasa semakin berlalu\n[01:34.31] Tinggalkan cerita tentang kita\n[01:45.43] Kini, di mana kucari tawamu\n[01:54.48] 'Tuk hapuskan semua sepi di hati?\n[02:07.17] Ada cerita tentang aku dan dia\n[02:13.77] Dan kita bersama saat dulu kala\n[02:27.61] Ada cerita tentang masa yang indah\n[02:37.84] Saat kita berduka, saat kita tertawa\n[04:07.43] Teringat di saat kita tertawa bersama\n[04:17.48] Ceritakan semua tentang kita\n[04:27.61] Ada cerita tentang aku dan dia\n[04:39.15] Dan kita bersama saat dulu kala\n[04:48.39] Ada cerita tentang masa yang indah\n[04:59.64] Saat kita berduka, saat kita tertawa\n[05:11.99] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "scaLtm2FhSk",
+      "videoId": "scaLtm2FhSk",
+      "songTitle": "Sparks",
+      "artistName": "Coldplay",
+      "albumName": "Coldplay",
+      "durationSeconds": 227,
+      "plainLyric": "Did I drive you away?\nI know what you'll say\nYou say, \"Oh, sing one we know\"\n\nBut I promise you this\nI'll always look out for you\nYeah, that's what I'll do\n\nI say, \"Ohh\"\n\nI say, \"Ohh\"\n\nMy heart is yours\nIt's you that I hold on to\nYeah, that's what I do\n\nAnd I know, I was wrong\nBut I won't let you down\nOh, yeah, yeah, yeah, I will, yes, I will\n\nI said, \"Ohh\"\n\nI cry, \"Ohh\"\n\nYeah, I saw sparks\nYeah, I saw sparks\nAnd I saw sparks\nYeah, I saw sparks\nSing it out",
+      "syncedLyrics": "[00:32.64] Did I drive you away?\n[00:38.25] I know what you'll say\n[00:41.46] You say, \"Oh, sing one we know\"\n[00:51.25] \n[00:54.09] But I promise you this\n[00:59.38] I'll always look out for you\n[01:06.91] Yeah, that's what I'll do\n[01:13.10] I say, \"Ohh\"\n[01:23.16] I say, \"Ohh\"\n[01:33.73] \n[01:56.84] My heart is yours\n[02:02.09] It's you that I hold on to\n[02:09.69] Yeah, that's what I do\n[02:17.43] And I know, I was wrong\n[02:22.60] But I won't let you down\n[02:27.06] Oh, yeah, yeah, yeah, I will, yes, I will\n[02:36.49] I said, \"Ohh\"\n[02:44.18] \n[02:46.67] I cry, \"Ohh\"\n[02:56.49] Yeah, I saw sparks\n[03:01.94] Yeah, I saw sparks\n[03:07.10] And I saw sparks\n[03:12.21] Yeah, I saw sparks\n[03:18.29] Sing it out\n[03:19.71] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

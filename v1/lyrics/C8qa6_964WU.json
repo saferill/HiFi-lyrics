@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "C8qa6_964WU",
+      "videoId": "C8qa6_964WU",
+      "songTitle": "La Nieve (Original song from the film La Bola Negra)",
+      "artistName": "Guitarricadelafuente",
+      "albumName": "La Nieve (Original song from the film La Bola Negra)",
+      "durationSeconds": 245,
+      "plainLyric": "Guardo el deseo en un camafeo\nReliquia, imperio andaluz\nEspero el instante de esta tierra gigante\nMe has hecho un destello de luz\nNo pestañeo\n\nMira qué tontería\nArden las turbias palabras que nunca aprendí\nY tú\n\nLlegó el primero donde arden mil fuegos\nDe carne y lucero es mi cruz\nMira de frente como hacía los 20\nY quién no le teme al sol\nLlegó a la nieve\n\nMira qué tontería\nArden las turbias palabras que nunca aprendí\nY tú",
+      "syncedLyrics": "[00:36.94] Guardo el deseo en un camafeo\n[00:44.85] Reliquia, imperio andaluz\n[00:53.54] Espero el instante de esta tierra gigante\n[01:01.61] Me has hecho un destello de luz\n[01:10.77] No pestañeo\n[01:15.29] Mira qué tontería\n[01:20.96] Arden las turbias palabras que nunca aprendí\n[01:30.89] Y tú\n[01:33.75] \n[02:25.08] Llegó el primero donde arden mil fuegos\n[02:32.26] De carne y lucero es mi cruz\n[02:40.19] Mira de frente como hacía los 20\n[02:47.45] Y quién no le teme al sol\n[02:55.12] Llegó a la nieve\n[02:59.93] Mira qué tontería\n[03:05.59] Arden las turbias palabras que nunca aprendí\n[03:14.87] Y tú\n[03:24.04] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

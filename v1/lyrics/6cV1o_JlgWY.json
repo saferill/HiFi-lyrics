@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "6cV1o_JlgWY",
+      "videoId": "6cV1o_JlgWY",
+      "songTitle": "Laterne, Laterne",
+      "artistName": "Lichterkinder",
+      "albumName": "Laternen- und Herbstlieder",
+      "durationSeconds": 129,
+      "plainLyric": "Laterne, Laterne\nSonne, Mond und Sterne\nBrenne auf, mein Licht, brenne auf, mein Licht\nAber nur meine liebe Laterne nicht\n\nLaterne, Laterne\nSonne, Mond und Sterne\nBrenne auf, mein Licht, brenne auf, mein Licht\nAber nur meine liebe Laterne nicht\n\nLaterne, Laterne\nSonne, Mond und Sterne\nSperrt ihn ein den Wind, sperrt ihn ein den Wind\nEr soll warten, bis wir alle zuhause sind\n\nLaterne, Laterne\nSonne, Mond und Sterne\nSperrt ihn ein den Wind, sperrt ihn ein den Wind\nEr soll warten, bis wir alle zuhause sind\n\nLaterne, Laterne\nSonne, Mond und Sterne\nBleibe hell, mein Licht, bleibe hell, mein Licht\nDenn sonst strahlt meine liebe Laterne nicht\n\nLaterne, Laterne\nSonne, Mond und Sterne\nBleibe hell, mein Licht, bleibe hell, mein Licht\nDenn sonst strahlt meine liebe Laterne nicht",
+      "syncedLyrics": "[00:08.47] Laterne, Laterne\n[00:13.04] Sonne, Mond und Sterne\n[00:16.99] Brenne auf, mein Licht, brenne auf, mein Licht\n[00:21.69] Aber nur meine liebe Laterne nicht\n[00:25.73] Laterne, Laterne\n[00:30.41] Sonne, Mond und Sterne\n[00:34.56] Brenne auf, mein Licht, brenne auf, mein Licht\n[00:38.99] Aber nur meine liebe Laterne nicht\n[00:43.38] Laterne, Laterne\n[00:48.09] Sonne, Mond und Sterne\n[00:52.14] Sperrt ihn ein den Wind, sperrt ihn ein den Wind\n[00:56.21] Er soll warten, bis wir alle zuhause sind\n[01:00.61] Laterne, Laterne\n[01:05.69] Sonne, Mond und Sterne\n[01:09.41] Sperrt ihn ein den Wind, sperrt ihn ein den Wind\n[01:13.82] Er soll warten, bis wir alle zuhause sind\n[01:18.20] Laterne, Laterne\n[01:22.93] Sonne, Mond und Sterne\n[01:27.05] Bleibe hell, mein Licht, bleibe hell, mein Licht\n[01:31.40] Denn sonst strahlt meine liebe Laterne nicht\n[01:35.82] Laterne, Laterne\n[01:40.22] Sonne, Mond und Sterne\n[01:44.36] Bleibe hell, mein Licht, bleibe hell, mein Licht\n[01:48.73] Denn sonst strahlt meine liebe Laterne nicht\n[01:54.67] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

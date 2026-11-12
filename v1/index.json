@@ -1,5 +1,7 @@
 {
   "service": "HiFi Lyrics Repository",
-  "total": 61,
+  "version": "2.0.0",
+  "last_updated": "2026-11-12T11:11:59Z",
+  "total_tracks": 1200,
   "status": "online"
 }

@@ -1,69 +1,274 @@
-import json
-import urllib.request
-import urllib.parse
 import os
 import re
+import json
 import time
+import urllib.request
+import urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-LYRICS_DIR = "v1/lyrics"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LYRICS_DIR = os.path.join(BASE_DIR, "v1", "lyrics")
+INDEX_FILE = os.path.join(BASE_DIR, "v1", "index.json")
+
 os.makedirs(LYRICS_DIR, exist_ok=True)
 
-PLAYLIST_SOURCES = [
-    "https://raw.githubusercontent.com/saferill/HiFi-charts/refs/heads/main/api/playlists.json",
-    # Top Hits & Viral Indeks
+USER_AGENT = "HiFiLyricsHarvester/2.0 (https://github.com/saferill/HiFi-lyrics)"
+HEADERS = {"User-Agent": USER_AGENT}
+
+INDO_ESSENTIALS = [
+    ("Bernadya", "Satu Bulan"), ("Bernadya", "Kata Mereka Ini Berlebihan"), ("Bernadya", "Kini Mereka Tahu"),
+    ("Bernadya", "Untungnya, Hidup Harus Tetap Berjalan"), ("Bernadya", "Apa Mungkin"), ("Bernadya", "Masa Sepi"),
+    ("Hindia", "Cincin"), ("Hindia", "Evaluasi"), ("Hindia", "Rumah Ke Rumah"), ("Hindia", "Membasuh"),
+    ("Hindia", "Secukupnya"), ("Hindia", "Berdansalah, Karir Ini Tak Ada Artinya"), ("Hindia", "Setengah Tahun Ini"),
+    ("Sal Priadi", "Gala Bunga Matahari"), ("Sal Priadi", "Dari Planet Lain"), ("Sal Priadi", "Mesra-mesraannya kecil-kecilan dulu"),
+    ("Sal Priadi", "Foto kita blur"), ("Sal Priadi", "Kita usahakan rumah itu"), ("Sal Priadi", "Ikat Aku Di Tulang Belikatmu"),
+    ("Nadin Amizah", "Rayuan Perempuan Gila"), ("Nadin Amizah", "Bertaut"), ("Nadin Amizah", "Semua Aku Dirayakan"),
+    ("Nadin Amizah", "Sorai"), ("Nadin Amizah", "Taruh"), ("Nadin Amizah", "Rumpang"), ("Nadin Amizah", "Ah"),
+    ("Denny Caknan", "Cundamani"), ("Denny Caknan", "Kartonyono Medot Janji"), ("Denny Caknan", "Los Dol"),
+    ("Denny Caknan", "Sugeng Dalu"), ("Denny Caknan", "Sampek Tuwek"), ("Denny Caknan", "Kalih Welasku"),
+    ("Denny Caknan", "Sigar"), ("Denny Caknan", "Wirang"), ("Denny Caknan", "Dumes"),
+    ("Guyon Waton", "Korban Janji"), ("Guyon Waton", "Perlahan"), ("Guyon Waton", "Sebatas Patok Tenda"),
+    ("Guyon Waton", "Pelanggaran"), ("Guyon Waton", "Sanes"), ("Happy Asmara", "Rungkad"),
+    ("Happy Asmara", "Kelebus"), ("Gilga Sahid", "Nemen"), ("Gilga Sahid", "Ginio"), ("Gilga Sahid", "Alum"),
+    ("NDX AKA", "Nemen"), ("NDX AKA", "Ditinggal Rabi"), ("NDX AKA", "Kelingan Mantan"),
+    ("Ndarboy Genk", "Mendung Tanpo Udan"), ("Ndarboy Genk", "Koyo Jogja Istimewa"),
+    ("Mahalini", "Sial"), ("Mahalini", "Melawan Restu"), ("Mahalini", "Sisa Rasa"), ("Mahalini", "Kisah Sempurna"),
+    ("Mahalini", "Bawa Dia Kembali"), ("Mahalini", "Mati-Matian"), ("Mahalini", "Ini Laguku"),
+    ("Tiara Andini", "Usai"), ("Tiara Andini", "Janji Setia"), ("Tiara Andini", "Menjadi Dia"),
+    ("Tiara Andini", "Merasa Indah"), ("Tiara Andini", "Kupu-Kupu"), ("Lyodra", "Pesan Terakhir"),
+    ("Lyodra", "Sang Dewi"), ("Lyodra", "Dibanding Dia"), ("Lyodra", "Tak Dianggap"),
+    ("Ziva Magnolya", "Pilihan yang Terbaik"), ("Ziva Magnolya", "Peri Cintaku"), ("Ziva Magnolya", "Menyesal"),
+    ("Tulus", "Hati-Hati di Jalan"), ("Tulus", "Monokrom"), ("Tulus", "Diri"), ("Tulus", "Interaksi"),
+    ("Tulus", "Pamit"), ("Tulus", "Sepatu"), ("Tulus", "Gajah"), ("Tulus", "Labirin"),
+    ("Yura Yunita", "Tutur Batin"), ("Yura Yunita", "Dunia Tipu-Tipu"), ("Yura Yunita", "Tenang"),
+    ("Yura Yunita", "Lihatlah Lebih Dekat"), ("Rizky Febian", "Hingga Tua Bersama"),
+    ("Rizky Febian", "Kesempurnaan Cinta"), ("Rizky Febian", "Cuek"), ("Rizky Febian", "Mantra Cinta"),
+    ("Rizky Febian", "Makna Cinta"), ("Rizky Febian", "Bermuara"),
+    ("Dewa 19", "Kangen"), ("Dewa 19", "Pupus"), ("Dewa 19", "Risalah Hati"), ("Dewa 19", "Separuh Nafas"),
+    ("Dewa 19", "Cinta Kan Membawamu Kembali"), ("Dewa 19", "Roman Picisan"), ("Dewa 19", "Kamulah Satu-Satunya"),
+    ("Sheila On 7", "Dan"), ("Sheila On 7", "Sephia"), ("Sheila On 7", "Melompat Lebih Tinggi"),
+    ("Sheila On 7", "Film Favorit"), ("Sheila On 7", "Mudah Saja"), ("Sheila On 7", "Hari Bersamanya"),
+    ("Sheila On 7", "Sebuah Kisah Klasik"), ("Sheila On 7", "Anugerah Terindah Yang Pernah Kumiliki"),
+    ("Noah", "Separuh Aku"), ("Noah", "Kisah Cintaku"), ("Noah", "Mungkin Nanti"), ("Noah", "Semua Tentang Kita"),
+    ("Noah", "Yang Terdalam"), ("Noah", "Menghapus Jejakmu"), ("Noah", "Bintang Di Surga"), ("Noah", "Cobalah Mengerti"),
+    ("Padi", "Semua Tak Sama"), ("Padi", "Kasih Tak Sampai"), ("Padi", "Menanti Sebuah Jawaban"),
+    ("Chrisye", "Kala Cinta Menggoda"), ("Chrisye", "Pergilah Kasih"), ("Chrisye", "Pelangi"), ("Chrisye", "Cintaku"),
+    ("Glenn Fredly", "Januari"), ("Glenn Fredly", "Sekali Ini Saja"), ("Glenn Fredly", "Kasih Putih"), ("Glenn Fredly", "Sedih Tak Berujung"),
+    ("Judika", "Mama Papa Larang"), ("Judika", "Jikalau Kau Cinta"), ("Judika", "Putus Atau Terus"), ("Judika", "Bagaimana Kalau Aku Tidak Baik-Baik Saja"),
+    ("Juicy Luicy", "Lantas"), ("Juicy Luicy", "Tanpa Tergesa"), ("Juicy Luicy", "Sayangnya"), ("Juicy Luicy", "Asing"),
+    ("Juicy Luicy", "Tampar"), ("Juicy Luicy", "Lampu Kuning"), ("For Revenge", "Serana"), ("For Revenge", "Jakarta Hari Ini"),
+    ("For Revenge", "Sadrah"), ("Batas Senja", "Nanti Kita Seperti Ini"), ("Feby Putri", "Runtuh"), ("Feby Putri", "Usik"),
+    ("Fiersa Besari", "Celengan Rindu"), ("Fiersa Besari", "Waktu Yang Salah"), ("Fiersa Besari", "April"),
+    ("Pamungkas", "To the Bone"), ("Pamungkas", "Kenangan Manis"), ("Pamungkas", "One Only"),
+    ("Reality Club", "Anything You Want"), ("Reality Club", "Is It The Answer?"), ("Reality Club", "Am I Bothering You?"),
+    ("D'Masiv", "Jangan Menyerah"), ("D'Masiv", "Cinta Ini Membunuhku"), ("Ungu", "Demi Waktu"), ("Ungu", "Kekasih Gelapku"),
+    ("Armada", "Asal Kau Bahagia"), ("Armada", "Pergi Pagi Pulang Pagi"), ("Geisha", "Lumpuhkan Ingatanku"),
+    ("Kotak", "Pelan-Pelan Saja"), ("Kerispatih", "Tertatih"), ("Kerispatih", "Mengenangmu"),
+    ("Vierratale", "Seandainya"), ("Vierratale", "Dengarkan Curhatku"), ("Last Child", "Pedih"), ("Last Child", "Duka"),
+    ("Payung Teduh", "Akad"), ("Payung Teduh", "Resah"), ("Fourtwnty", "Zona Nyaman"), ("Fourtwnty", "Fana Merah Jambu"),
+    ("Bruno Mars", "Die With A Smile"), ("Bruno Mars", "Just the Way You Are"), ("Bruno Mars", "That's What I Like"),
+    ("Lady Gaga", "Die With A Smile"), ("Taylor Swift", "Cruel Summer"), ("Taylor Swift", "Fortnight"),
+    ("Taylor Swift", "Anti-Hero"), ("Taylor Swift", "Blank Space"), ("Taylor Swift", "Love Story"),
+    ("Billie Eilish", "Birds of a Feather"), ("Billie Eilish", "What Was I Made For?"), ("Billie Eilish", "Bad Guy"),
+    ("Sabrina Carpenter", "Espresso"), ("Sabrina Carpenter", "Please Please Please"), ("Sabrina Carpenter", "Taste"),
+    ("Olivia Rodrigo", "vampire"), ("Olivia Rodrigo", "drivers license"), ("Olivia Rodrigo", "good 4 u"),
+    ("Coldplay", "Yellow"), ("Coldplay", "The Scientist"), ("Coldplay", "Fix You"), ("Coldplay", "Viva La Vida"),
+    ("The Weeknd", "Blinding Lights"), ("The Weeknd", "Starboy"), ("The Weeknd", "Save Your Tears"),
+    ("Ed Sheeran", "Shape of You"), ("Ed Sheeran", "Perfect"), ("Ed Sheeran", "Photograph"),
+    ("Ariana Grande", "we can't be friends"), ("Ariana Grande", "7 rings"), ("Ariana Grande", "positions"),
+    ("Dua Lipa", "Levitating"), ("Dua Lipa", "Don't Start Now"), ("Dua Lipa", "Houdini"),
+    ("Queen", "Bohemian Rhapsody"), ("Queen", "Love of My Life"), ("Oasis", "Don't Look Back In Anger"),
+    ("Oasis", "Wonderwall"), ("Linkin Park", "In the End"), ("Linkin Park", "Numb"),
+    ("NewJeans", "Supernatural"), ("NewJeans", "Ditto"), ("NewJeans", "OMG"), ("NewJeans", "Hype Boy"),
+    ("BLACKPINK", "How You Like That"), ("BLACKPINK", "Kill This Love"), ("BLACKPINK", "Shut Down"),
+    ("BTS", "Dynamite"), ("BTS", "Butter"), ("BTS", "Spring Day"),
+    ("YOASOBI", "Idol"), ("YOASOBI", "Yoru ni Kakeru"), ("Fujii Kaze", "Shinunoga E-Wa"), ("Fujii Kaze", "Matsuri")
 ]
 
-SEEDS = [
-    ("Hindia", "Cincin"), ("Bernadya", "Satu Bulan"), ("Nadin Amizah", "Rayuan Perempuan Gila"),
-    ("Denny Caknan", "Cundamani"), ("Tulus", "Hati-Hati di Jalan"), ("Mahalini", "Sial"),
-    ("Sheila On 7", "Dan"), ("Dewa 19", "Kangen"), ("Noah", "Separuh Aku"), ("Judika", "Mama Papa Larang"),
-    ("Fabio Asher", "Rumah Singgah"), ("Sal Priadi", "Gala Bunga Matahari"), ("Ghea Indrawari", "Jiwa Yang Bersedih"),
-    ("Tiara Andini", "Usai"), ("Lyodra", "Pesan Terakhir"), ("Ziva Magnolya", "Pilihan yang Terbaik"),
-    ("Rizky Febian", "Hingga Tua Bersama"), ("Yura Yunita", "Tutur Batin"), ("Fiersa Besari", "Runtuh"),
-    ("Taylor Swift", "Cruel Summer"), ("Billie Eilish", "Birds of a Feather"), ("Coldplay", "Yellow"),
-    ("Ed Sheeran", "Shape of You"), ("Bruno Mars", "Die With A Smile"), ("The Weeknd", "Blinding Lights"),
-    ("Ariana Grande", "we can't be friends"), ("Post Malone", "Circles"), ("Dua Lipa", "Levitating"),
-    ("NewJeans", "Supernatural"), ("BTS", "Dynamite"), ("BLACKPINK", "How You Like That")
+KWORB_URLS = [
+    'https://kworb.net/spotify/country/id_daily.html',
+    'https://kworb.net/spotify/country/id_weekly.html',
+    'https://kworb.net/spotify/country/global_daily.html',
+    'https://kworb.net/spotify/country/global_weekly.html',
+    'https://kworb.net/spotify/country/us_daily.html',
+    'https://kworb.net/spotify/country/gb_daily.html',
+    'https://kworb.net/spotify/country/jp_daily.html',
+    'https://kworb.net/spotify/country/kr_daily.html',
+    'https://kworb.net/spotify/country/my_daily.html',
+    'https://kworb.net/spotify/country/ph_daily.html',
+    'https://kworb.net/spotify/country/sg_daily.html',
+    'https://kworb.net/spotify/country/th_daily.html',
+    'https://kworb.net/spotify/country/br_daily.html',
+    'https://kworb.net/spotify/country/mx_daily.html',
+    'https://kworb.net/spotify/country/de_daily.html',
+    'https://kworb.net/spotify/country/fr_daily.html',
+    'https://kworb.net/spotify/country/es_daily.html',
+    'https://kworb.net/spotify/country/it_daily.html',
+    'https://kworb.net/spotify/country/au_daily.html',
+    'https://kworb.net/spotify/country/ca_daily.html',
 ]
 
-def clean_name(text):
-    text = re.sub(r'\(.*?\)|\[.*?\]', '', text)
-    text = re.sub(r'(?i)official.*|video.*|audio.*|lyrics.*|mv.*', '', text)
-    return text.strip()
+def clean_text(s):
+    if not s:
+        return ""
+    s = re.sub(r'\(.*?(?:feat|ft\.|official|video|audio|remix|version|deluxe|bonus).*?\)', '', s, flags=re.IGNORECASE)
+    s = re.sub(r'\[.*?(?:feat|ft\.|official|video|audio|remix|version|deluxe|bonus).*?\]', '', s, flags=re.IGNORECASE)
+    return s.strip()
 
-def parse_lrc(lrc):
-    lines = []
-    for line in lrc.splitlines():
-        m = re.match(r'\[(\d+):(\d+(?:\.\d+)?)\](.*)', line)
-        if m:
-            ms = int((int(m.group(1)) * 60 + float(m.group(2))) * 1000)
-            lines.append({"startTimeMs": str(ms), "words": m.group(3).strip()})
-    return lines
+def fetch_chart_tracks():
+    tracks = set()
+    for artist, title in INDO_ESSENTIALS:
+        tracks.add((artist.strip(), title.strip()))
 
-print("Gathering massive lyrics from multi-sources...")
-added = 0
-for artist, title in SEEDS:
-    q = urllib.parse.urlencode({'track_name': clean_name(title), 'artist_name': clean_name(artist)})
-    url = f"https://lrclib.net/api/get?{q}"
-    req = urllib.request.Request(url, headers={'User-Agent': 'HiFiMusic/1.0'})
+    pattern = re.compile(r'<td class="text mp"><div><a href="\.\./artist/[^"]+">([^<]+)</a>\s*-\s*<a href="\.\./track/[^"]+">([^<]+)</a>')
+    for u in KWORB_URLS:
+        try:
+            req = urllib.request.Request(u, headers=HEADERS)
+            html = urllib.request.urlopen(req, timeout=6).read().decode('utf-8', errors='ignore')
+            matches = pattern.findall(html)
+            for artist, title in matches:
+                tracks.add((artist.strip(), title.strip()))
+        except Exception:
+            pass
+    return list(tracks)
+
+def search_lrclib(artist, title):
+    q = urllib.parse.quote(f"{clean_text(title)} {clean_text(artist)}")
+    url = f"https://lrclib.net/api/search?q={q}"
+    req = urllib.request.Request(url, headers=HEADERS)
     try:
-        with urllib.request.urlopen(req, timeout=8) as resp:
+        with urllib.request.urlopen(req, timeout=7) as resp:
             data = json.loads(resp.read().decode('utf-8'))
-            synced = data.get('syncedLyrics')
-            plain = data.get('plainLyrics')
-            lines = parse_lrc(synced) if synced else ([{"startTimeMs": "0", "words": l.strip()} for l in plain.splitlines()] if plain else [])
-            if lines:
-                vid = f"seed_{abs(hash(artist + title))}"
-                out_file = os.path.join(LYRICS_DIR, f"{vid}.json")
-                if not os.path.exists(out_file):
-                    with open(out_file, "w", encoding="utf-8") as f:
-                        json.dump({"title": title, "artist": artist, "syncType": "LINE_SYNCED" if synced else "UNSYNCED", "lines": lines}, f, indent=2)
-                    added += 1
-        time.sleep(0.1)
+            if not isinstance(data, list):
+                return None
+            for item in data:
+                if item.get("syncedLyrics"):
+                    return item
+            if data:
+                return data[0]
     except Exception:
         pass
+    return None
 
-total = len([f for f in os.listdir(LYRICS_DIR) if f.endswith('.json')])
-with open("v1/index.json", "w", encoding="utf-8") as f:
-    json.dump({"service": "HiFi Lyrics Repository", "total": total, "status": "online"}, f, indent=2)
-print(f"Finished. Added: {added}, Total: {total}")
+def resolve_youtube_videoids(artist, title):
+    url = 'https://www.youtube.com/youtubei/v1/search?prettyPrint=false'
+    query = f"{artist} - {title}"
+    payload = {
+        'context': {'client': {'clientName': 'WEB', 'clientVersion': '2.20240101.01.00'}},
+        'query': query
+    }
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode('utf-8'),
+        headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'}
+    )
+    vids = []
+    try:
+        with urllib.request.urlopen(req, timeout=8) as r:
+            resp = json.loads(r.read().decode('utf-8'))
+            sections = resp.get('contents', {}).get('twoColumnSearchResultsRenderer', {}).get('primaryContents', {}).get('sectionListRenderer', {}).get('contents', [])
+            for sec in sections:
+                items = sec.get('itemSectionRenderer', {}).get('contents', [])
+                for it in items:
+                    vr = it.get('videoRenderer')
+                    if vr and 'videoId' in vr:
+                        vids.append(vr['videoId'])
+                        if len(vids) >= 2:
+                            break
+                if len(vids) >= 2:
+                    break
+    except Exception:
+        pass
+    return vids
+
+def write_lyric_file(vid, lrc_obj, fallback_title, fallback_artist):
+    song_title = lrc_obj.get("trackName") or fallback_title
+    artist_name = lrc_obj.get("artistName") or fallback_artist
+    album_name = lrc_obj.get("albumName") or ""
+    duration = int(lrc_obj.get("duration") or 0)
+    plain_lyrics = lrc_obj.get("plainLyrics") or ""
+    synced_lyrics = lrc_obj.get("syncedLyrics") or ""
+
+    payload = {
+        "success": True,
+        "error": None,
+        "data": [
+            {
+                "id": vid,
+                "videoId": vid,
+                "songTitle": song_title,
+                "artistName": artist_name,
+                "albumName": album_name,
+                "durationSeconds": duration,
+                "plainLyric": plain_lyrics,
+                "syncedLyrics": synced_lyrics,
+                "richSyncLyrics": None,
+                "trackType": None,
+                "vote": 100,
+                "contributor": "LRCLIB / HiFi Community",
+                "contributorEmail": "lyrics@hifi.org"
+            }
+        ]
+    }
+    filepath = os.path.join(LYRICS_DIR, f"{vid}.json")
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+def process_track(track):
+    artist, title = track
+    lrc = search_lrclib(artist, title)
+    if not lrc:
+        return 0
+    vids = resolve_youtube_videoids(artist, title)
+    if not vids:
+        return 0
+    saved = 0
+    for vid in vids:
+        filepath = os.path.join(LYRICS_DIR, f"{vid}.json")
+        # Overwrite or update with latest
+        write_lyric_file(vid, lrc, title, artist)
+        saved += 1
+    return saved
+
+def update_index():
+    lyrics_files = [f for f in os.listdir(LYRICS_DIR) if f.endswith(".json") and len(f) == 16]
+    index_data = {
+        "service": "HiFi Lyrics Repository",
+        "version": "2.0.0",
+        "last_updated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "total_tracks": len(lyrics_files),
+        "status": "online"
+    }
+    with open(INDEX_FILE, "w", encoding="utf-8") as f:
+        json.dump(index_data, f, indent=2)
+    return len(lyrics_files)
+
+def main():
+    print("Step 1: Gathering chart and seed tracks...")
+    all_tracks = fetch_chart_tracks()
+    print(f"Total track candidates: {len(all_tracks)}")
+
+    print("Step 2: Harvesting lyrics from LRCLIB & mapping YouTube video IDs...")
+    total_saved = 0
+    completed = 0
+    start_time = time.time()
+
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        futures = {executor.submit(process_track, t): t for t in all_tracks}
+        for future in as_completed(futures):
+            completed += 1
+            try:
+                saved = future.result()
+                total_saved += saved
+            except Exception:
+                pass
+            if completed % 50 == 0 or completed == len(all_tracks):
+                elapsed = time.time() - start_time
+                print(f"Progress: {completed}/{len(all_tracks)} tracks processed. Saved: {total_saved}. ({elapsed:.1f}s)")
+
+    print("Step 3: Building catalog index...")
+    total_files = update_index()
+    print(f"DONE! Total lyrics in database: {total_files} files.")
+
+if __name__ == "__main__":
+    main()
