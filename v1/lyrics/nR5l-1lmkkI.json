@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "nR5l-1lmkkI",
+      "videoId": "nR5l-1lmkkI",
+      "songTitle": "Marshmello - Alone",
+      "artistName": "Marshmello",
+      "albumName": "Marshmello - Alone",
+      "durationSeconds": 200,
+      "plainLyric": "I'm so alone\nNothing feels like home\nI'm so alone\nTrying to find my way back home to you\n\nI'm so alone\nNothing feels like home\nI'm so alone\nTrying to find my way back home to you\nI'm so alone\nTrying to find my way back home to you\n\nI'm so alone\nNothing feels like home\nI'm so alone\nTrying to find my way back home to you\n\nI'm so alone\nNothing feels like home\nI'm so alone\nTrying to find my way back home to you\nI'm so alone\nTrying to find my way back home to you",
+      "syncedLyrics": "[00:34.43] I'm so alone\n[00:37.28] Nothing feels like home\n[00:40.78] I'm so alone\n[00:43.76] Trying to find my way back home to you\n[00:47.63] I'm so alone\n[00:50.33] Nothing feels like home\n[00:54.04] I'm so alone\n[00:57.17] Trying to find my way back home to you\n[01:00.55] \n[01:03.15] \n[01:08.05] I'm so alone\n[01:10.79] Trying to find my way back home to you\n[01:15.86] \n[02:08.88] I'm so alone\n[02:11.83] Nothing feels like home\n[02:15.36] I'm so alone\n[02:18.30] Trying to find my way back home to you\n[02:22.37] I'm so alone\n[02:25.18] Nothing feels like home\n[02:28.81] I'm so alone\n[02:31.87] Trying to find my way back home to you\n[02:37.92] \n[02:42.50] I'm so alone\n[02:45.35] Trying to find my way back home to you\n[02:48.57] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

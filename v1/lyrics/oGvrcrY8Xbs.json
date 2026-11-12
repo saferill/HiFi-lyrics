@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "oGvrcrY8Xbs",
+      "videoId": "oGvrcrY8Xbs",
+      "songTitle": "Clean Baby Sleep White Noise (Loopable no fade)",
+      "artistName": "Dream Supplier",
+      "albumName": "Clean Baby Sleep White Noise (Loopable no fade)",
+      "durationSeconds": 142,
+      "plainLyric": "",
+      "syncedLyrics": "",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

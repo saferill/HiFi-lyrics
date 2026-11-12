@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "igaeQ2fJRxE",
+      "videoId": "igaeQ2fJRxE",
+      "songTitle": "NOAH - Yang Terdalam",
+      "artistName": "NOAH",
+      "albumName": "NOAH - Yang Terdalam",
+      "durationSeconds": 213,
+      "plainLyric": "Kulepas semua yang kuinginkan\nTak akan kuulangi\nMaafkan jika kau kusayangi\nDan bila ku menanti\n\nPernahkah engkau coba mengerti?\nLihatlah, ku di sini\nMungkinkah jika aku bermimpi?\nSalahkah 'tuk menanti?\n\nTakkan lelah aku menanti\nTakkan hilang cintaku ini\nHingga saat kau tak kembali\n'Kan kukenang di hati saja\n\nKau telah tinggalkan\nHati yang terdalam\nHingga tiada cinta\nYang tersisa di jiwa",
+      "syncedLyrics": "[00:28.29] Kulepas semua yang kuinginkan\n[00:35.20] Tak akan kuulangi\n[00:42.13] Maafkan jika kau kusayangi\n[00:49.06] Dan bila ku menanti\n[00:56.26] Pernahkah engkau coba mengerti?\n[01:03.19] Lihatlah, ku di sini\n[01:10.03] Mungkinkah jika aku bermimpi?\n[01:17.08] Salahkah 'tuk menanti?\n[01:37.08] Takkan lelah aku menanti\n[01:43.96] Takkan hilang cintaku ini\n[01:50.83] Hingga saat kau tak kembali\n[01:57.53] 'Kan kukenang di hati saja\n[02:47.34] Kau telah tinggalkan\n[02:54.47] Hati yang terdalam\n[03:02.25] Hingga tiada cinta\n[03:07.59] Yang tersisa di jiwa\n[03:16.08] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

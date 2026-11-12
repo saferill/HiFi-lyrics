@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "3XqqkrJENB4",
+      "videoId": "3XqqkrJENB4",
+      "songTitle": "Cry - Cigarettes After Sex",
+      "artistName": "Cigarettes After Sex",
+      "albumName": "Cry - Cigarettes After Sex",
+      "durationSeconds": 256,
+      "plainLyric": "It's making you cry every time you give your love to me this way\nSaying you'd wait for me to stay, I know it hurts you,\n\nBut I need to tell you something\nMy heart just can't be faithful for long\nI swear I'll only make you cry\n\nMaybe I'd change for you someday, but I can't help the way I feel\nWish I was good, wish that I could give you my love now...\n\nBut I need to tell you something\nMy heart just can't be faithful for long\nI swear I'll only make you cry\n\nI need to tell you something\nMy heart just can't be faithful for long\nI swear I'll only make you cry",
+      "syncedLyrics": "[00:54.42] It's making you cry every time you give your love to me this way\n[01:08.07] Saying you'd wait for me to stay, I know it hurts you,\n[01:18.31] But I need to tell you something\n[01:29.59] My heart just can't be faithful for long\n[01:39.55] I swear I'll only make you cry\n[01:49.08] Maybe I'd change for you someday, but I can't help the way I feel\n[02:01.39] Wish I was good, wish that I could give you my love now...\n[02:11.95] But I need to tell you something\n[02:23.45] My heart just can't be faithful for long\n[02:33.64] I swear I'll only make you cry\n[02:42.60] \n[03:07.54] I need to tell you something\n[03:16.94] My heart just can't be faithful for long\n[03:27.28] I swear I'll only make you cry\n[03:34.11] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

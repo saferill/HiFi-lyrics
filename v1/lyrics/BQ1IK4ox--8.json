@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "BQ1IK4ox--8",
+      "videoId": "BQ1IK4ox--8",
+      "songTitle": "Displicente (Ao Vivo)",
+      "artistName": "Wesley Safadão e Rey Vaqueiro",
+      "albumName": "Meu Forró É Mundo (Ao Vivo)",
+      "durationSeconds": 159,
+      "plainLyric": "Eu tô deixando a luz acesa pra saudade não vir aqui me assombrar\nA sua foto na carteira eu tirei pois não parava de olhar\nCego eu não vi você se afastando\nDisplicente eu me perdi te amando\n\nE será que é tarde pra te pedir pra voltar?\nSe o cristal que eu quebrei dá pra colar\nMeu coração tem esperança\nNunca é tarde pra quem ama\nSerá que é tarde pra te pedir pra voltar?\nSe o cristal que eu quebrei dá pra colar\nMeu coração tem esperança\nNunca é tarde pra quem ama\n\nEu tô deixando a luz acesa pra saudade não vir aqui me assombrar\nSua foto na carteira eu tirei pois não parava de olhar\nCego eu não vi você se afastando\nDisplicente eu te perdi te amando\n\nSerá que é tarde pra te pedir pra voltar?\nSe o cristal que eu quebrei dá pra colar\nMeu coração tem esperança\nNunca é tarde pra quem ama\nE será que é tarde pra te pedir pra voltar?\nSe o cristal que eu quebrei dá pra colar\nMeu coração tem esperança\nNunca é tarde pra quem ama",
+      "syncedLyrics": "[00:03.12] Eu tô deixando a luz acesa pra saudade não vir aqui me assombrar\n[00:19.52] A sua foto na carteira eu tirei pois não parava de olhar\n[00:26.11] Cego eu não vi você se afastando\n[00:34.65] Displicente eu me perdi te amando\n[00:37.56] E será que é tarde pra te pedir pra voltar?\n[00:42.12] Se o cristal que eu quebrei dá pra colar\n[00:45.32] Meu coração tem esperança\n[00:47.73] Nunca é tarde pra quem ama\n[00:50.11] Será que é tarde pra te pedir pra voltar?\n[00:54.47] Se o cristal que eu quebrei dá pra colar\n[00:57.52] Meu coração tem esperança\n[01:00.33] Nunca é tarde pra quem ama\n[01:09.93] Eu tô deixando a luz acesa pra saudade não vir aqui me assombrar\n[01:21.18] Sua foto na carteira eu tirei pois não parava de olhar\n[01:27.55] Cego eu não vi você se afastando\n[01:33.79] Displicente eu te perdi te amando\n[01:39.14] Será que é tarde pra te pedir pra voltar?\n[01:43.79] Se o cristal que eu quebrei dá pra colar\n[01:46.87] Meu coração tem esperança\n[01:49.38] Nunca é tarde pra quem ama\n[01:51.48] E será que é tarde pra te pedir pra voltar?\n[01:56.00] Se o cristal que eu quebrei dá pra colar\n[01:59.13] Meu coração tem esperança\n[02:01.67] Nunca é tarde pra quem ama\n[02:03.77] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

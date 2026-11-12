@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "3ro_qlBbcpk",
+      "videoId": "3ro_qlBbcpk",
+      "songTitle": "California",
+      "artistName": "Los Vaguens",
+      "albumName": "Los Vaguens",
+      "durationSeconds": 180,
+      "plainLyric": "California, en tu piel\nEstás sola como ayer\nNo será tan fácil olvidar\nQue eras tú, siempre fuiste tú\nAmor es tan corto el cariño\nPero mi amor es tan largo el olvido\nCorazón te olvida en la mañana\nCalifornia, te lloré\nEn las olas te olvidé\nNo será tan fácil olvidar\nQue eras tú, siempre fuiste tú\nAmor es tan corto el cariño\nPero mi amor es tan largo el olvido\nCorazón te olvida en la mañana\nAmor es tan corto el cariño\nPero mi amor es tan largo el olvido\nCorazón te olvida en la mañana\nCalifornia\nCalifornia",
+      "syncedLyrics": "[00:06.51]California, en tu piel\n[00:14.11]Estás sola como ayer\n[00:21.58]No será tan fácil olvidar\n[00:28.80]Que eras tú, siempre fuiste tú\n[00:38.15]Amor es tan corto el cariño\n[00:44.85]Pero mi amor es tan largo el olvido\n[00:52.05]Corazón te olvida en la mañana\n[01:03.06]\n[01:11.65]California, te lloré\n[01:19.18]En las olas te olvidé\n[01:26.02]No será tan fácil olvidar\n[01:33.62]Que eras tú, siempre fuiste tú\n[01:43.13]Amor es tan corto el cariño\n[01:49.78]Pero mi amor es tan largo el olvido\n[01:57.13]Corazón te olvida en la mañana\n[02:08.69]\n[02:15.30]Amor es tan corto el cariño\n[02:21.82]Pero mi amor es tan largo el olvido\n[02:29.53]Corazón te olvida en la mañana\n[02:38.38]California\n[02:45.37]California\n[02:55.56]",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

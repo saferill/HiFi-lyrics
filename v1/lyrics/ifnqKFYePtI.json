@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "ifnqKFYePtI",
+      "videoId": "ifnqKFYePtI",
+      "songTitle": "Durch die Straßen auf und nieder",
+      "artistName": "Lichterkinder",
+      "albumName": "Laternen- und Herbstlieder",
+      "durationSeconds": 84,
+      "plainLyric": "Durch die Straßen auf und nieder\nLeuchten die Laternen wieder\nRote, gelbe, grüne, blaue\nLieber Martin, komm und schaue\n\nWie die Blumen in dem Garten\nBlüh'n Laternen aller Arten\nRote, gelbe, grüne, blaue\nLieber Martin, komm und schaue\n\nUnd wir gehen lange Strecken\nMit Laternen an den Stecken\nRote, gelbe, grüne, blaue\nLieber Martin, komm und schaue",
+      "syncedLyrics": "[00:04.86] Durch die Straßen auf und nieder\n[00:09.54] Leuchten die Laternen wieder\n[00:14.38] Rote, gelbe, grüne, blaue\n[00:19.15] Lieber Martin, komm und schaue\n[00:28.80] Wie die Blumen in dem Garten\n[00:33.62] Blüh'n Laternen aller Arten\n[00:38.44] Rote, gelbe, grüne, blaue\n[00:43.19] Lieber Martin, komm und schaue\n[00:52.85] Und wir gehen lange Strecken\n[00:57.53] Mit Laternen an den Stecken\n[01:02.43] Rote, gelbe, grüne, blaue\n[01:07.18] Lieber Martin, komm und schaue\n[01:12.16] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

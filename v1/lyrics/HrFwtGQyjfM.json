@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "HrFwtGQyjfM",
+      "videoId": "HrFwtGQyjfM",
+      "songTitle": "St. Martin ritt durch Schnee und Wind",
+      "artistName": "Lichterkinder",
+      "albumName": "Laternen- und Herbstlieder",
+      "durationSeconds": 170,
+      "plainLyric": "Sankt Martin, Sankt Martin\nSankt Martin ritt durch Schnee und Wind\nSein Ross, das trug ihn fort, geschwind\nSankt Martin ritt mit leichtem Mut\nSein Mantel deckt ihn warm und gut\n\nIm Schnee saß, im Schnee saß\nIm Schnee, da saß ein armer Mann\nHatt Kleider nicht, hatt Lumpen an\n\"Oh, helft mir doch in meiner Not\nSonst ist der bittre Frost mein Tod\"\n\nSankt Martin, Sankt Martin\nSankt Martin zog die Zügel an\nSein Ross stand still beim armen Mann\nSankt Martin mit dem Schwerte teilt\nDen warmen Mantel unverweilt\n\nSankt Martin, Sankt Martin\nSankt Martin gab den Halben still\nDer Bettler rasch ihm danken will\nSankt Martin aber ritt in Eil\nHinweg mit seinem Mantelteil\n\nSankt Martin, Sankt Martin\nSankt Martin legt sich still zur Ruh\nDa trat im Traum der Herr hinzu\nDer sprach auch: \"Dank, du Reitersmann\nFür das, was du an mir getan\"",
+      "syncedLyrics": "[00:04.71] Sankt Martin, Sankt Martin\n[00:10.21] Sankt Martin ritt durch Schnee und Wind\n[00:15.68] Sein Ross, das trug ihn fort, geschwind\n[00:21.20] Sankt Martin ritt mit leichtem Mut\n[00:26.55] Sein Mantel deckt ihn warm und gut\n[00:36.35] Im Schnee saß, im Schnee saß\n[00:41.75] Im Schnee, da saß ein armer Mann\n[00:47.05] Hatt Kleider nicht, hatt Lumpen an\n[00:52.48] \"Oh, helft mir doch in meiner Not\n[00:58.12] Sonst ist der bittre Frost mein Tod\"\n[01:07.42] Sankt Martin, Sankt Martin\n[01:12.94] Sankt Martin zog die Zügel an\n[01:18.58] Sein Ross stand still beim armen Mann\n[01:23.93] Sankt Martin mit dem Schwerte teilt\n[01:29.30] Den warmen Mantel unverweilt\n[01:38.72] Sankt Martin, Sankt Martin\n[01:44.23] Sankt Martin gab den Halben still\n[01:49.78] Der Bettler rasch ihm danken will\n[01:55.37] Sankt Martin aber ritt in Eil\n[02:00.85] Hinweg mit seinem Mantelteil\n[02:10.40] Sankt Martin, Sankt Martin\n[02:15.83] Sankt Martin legt sich still zur Ruh\n[02:21.37] Da trat im Traum der Herr hinzu\n[02:26.66] Der sprach auch: \"Dank, du Reitersmann\n[02:32.15] Für das, was du an mir getan\"\n[02:37.94] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

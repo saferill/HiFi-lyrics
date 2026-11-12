@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "ITnT4L988G0",
+      "videoId": "ITnT4L988G0",
+      "songTitle": "EVERYTHING",
+      "artistName": "The Black Skirts",
+      "albumName": "The Black Skirts",
+      "durationSeconds": 293,
+      "plainLyric": "You're my everything\nMy everything, my everything\nYou're my everything\nMy everything, everything\n\n비가 내리는 날엔\n우리 방안에 누워 아무 말이 없고\n감은 눈을 마주보면\n모든 게 우리 거야\n\n조금 핼쑥한 얼굴로 날 찾아올 때도\n가끔 발칙한 얘기로 날 놀랠킬 때도\n\nYou're my everything\nMy everything, my everything\nYou're my everything\nMy everything, everything\n\n넌 내 모든 거야\n내 여름이고 내 꿈이야\n넌 내 모든 거야\n나 있는 그대 받아 줄게요",
+      "syncedLyrics": "[00:44.22] You're my everything\n[00:48.17] My everything, my everything\n[00:59.98] You're my everything\n[01:04.70] My everything, everything\n[01:10.02] \n[01:16.24] 비가 내리는 날엔\n[01:21.10] 우리 방안에 누워 아무 말이 없고\n[01:31.87] 감은 눈을 마주보면\n[01:39.76] 모든 게 우리 거야\n[01:47.97] 조금 핼쑥한 얼굴로 날 찾아올 때도\n[02:01.58] \n[02:04.07] 가끔 발칙한 얘기로 날 놀랠킬 때도\n[02:19.53] You're my everything\n[02:24.50] My everything, my everything\n[02:35.63] You're my everything\n[02:40.80] My everything, everything\n[02:52.56] \n[03:24.52] 넌 내 모든 거야\n[03:29.13] 내 여름이고 내 꿈이야\n[03:39.94] 넌 내 모든 거야\n[03:45.04] 나 있는 그대 받아 줄게요\n[03:52.21] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

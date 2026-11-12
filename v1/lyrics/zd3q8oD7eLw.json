@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "zd3q8oD7eLw",
+      "videoId": "zd3q8oD7eLw",
+      "songTitle": "Bibi und Tina Lied",
+      "artistName": "Simone Sommerland, Karsten Glück und die Kita-Frösche",
+      "albumName": "Die 30 besten Lieder für Mädchen",
+      "durationSeconds": 81,
+      "plainLyric": "Hufe klappern\nPferde traben\nSpringen übern Wassergraben\nÜber Stock und über Stein\nWer kann das wohl sein?\n\nDas sind Bibi und Tina\nAuf Amadeus und Sabrina\nSie jagen im Wind\nSie reiten geschwind\nWeil sie Freunde sind\nWeil sie Freunde sind\n\nUnd ist der Graben mal zu breit\nFür Bibi ist das keine Schwierigkeit\nHex-Hex Plingpling, Sabrina spring\nSuper Bibi, los Amadeus\n\nAufgesessen, lang die Zügel\nSattelfest den Fuß im Bügel\nÜber Felder, über Weiden\nJeder kennt die beiden\n\nDas sind Bibi und Tina\nAuf Amadeus und Sabrina\nSie jagen im Wind\nSie reiten geschwind\nWeil sie Freunde sind\nWeil sie Freunde sind",
+      "syncedLyrics": "",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "5FegerfVeBE",
+      "videoId": "5FegerfVeBE",
+      "songTitle": "Movin' To The Sun",
+      "artistName": "HUGEL",
+      "albumName": "Movin' To The Sun",
+      "durationSeconds": 145,
+      "plainLyric": "I'm movin' to the sun\nI did it all the time\nI'm goin' to the sun\nI'm so bad in the dark\nAh, ah, ah, ah, ah\n\nI'm movin' to the sun\n\nI wanna take you out of-\nI wanna feel you in this place\n\nI'm movin' to the sun\nI did it all the time\nI'm goin' to the sun\nI'm so bad in the dark\n\nI got the fire in the light\nI got the fire in the light\nI got the fire in the sky\nOh, that night, that night\n\nOh, I'm movin' to the sun\n\nThat night\n\nI wanna take you out of-\nI wanna feel you in this-\n\nI'm movin' to the sun",
+      "syncedLyrics": "[00:00.81] I'm movin' to the sun\n[00:04.64] I did it all the time\n[00:08.18] I'm goin' to the sun\n[00:11.90] I'm so bad in the dark\n[00:14.18] Ah, ah, ah, ah, ah\n[00:16.65] \n[00:31.58] I'm movin' to the sun\n[00:33.14] \n[00:54.26] I wanna take you out of-\n[00:58.05] I wanna feel you in this place\n[01:02.19] I'm movin' to the sun\n[01:06.04] I did it all the time\n[01:09.71] I'm goin' to the sun\n[01:13.69] I'm so bad in the dark\n[01:17.16] I got the fire in the light\n[01:20.93] I got the fire in the light\n[01:24.83] I got the fire in the sky\n[01:28.15] Oh, that night, that night\n[01:33.69] \n[01:47.89] Oh, I'm movin' to the sun\n[01:49.71] \n[02:09.95] That night\n[02:11.08] I wanna take you out of-\n[02:14.95] I wanna feel you in this-\n[02:18.94] I'm movin' to the sun\n[02:20.90] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

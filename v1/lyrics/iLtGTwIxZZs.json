@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "iLtGTwIxZZs",
+      "videoId": "iLtGTwIxZZs",
+      "songTitle": "Bruce Springsteen - I'm On Fire (Official Video)",
+      "artistName": "Bruce Springsteen",
+      "albumName": "Bruce Springsteen",
+      "durationSeconds": 211,
+      "plainLyric": "Hey, little girl, is your daddy home?\nDid he go away and leave you all alone?\nI got a bad desire\nOh-oh-oh, I'm on fire\n\nTell me now, baby, is he good to you\nAnd can he do to you the things that I do?\nOh no, I can take you higher\nOh-oh-oh, I'm on fire\n\nSometimes it's like someone took a knife, baby, edgy and dull\nAnd cut a six-inch valley through the middle of my skull\n\nAt night, I wake up with the sheets soaking wet\nAnd a freight train running through the middle of my head\nOnly you can cool my desire\nOh-oh-oh, I'm on fire\n\nOh-oh-oh, I'm on fire\nOh-oh-oh, I'm on fire",
+      "syncedLyrics": "[01:31.45] Hey, little girl, is your daddy home?\n[01:33.39] Did he go away and leave you all alone?\n[01:38.39] I got a bad desire\n[01:42.23] Oh-oh-oh, I'm on fire\n[01:46.91] Tell me now, baby, is he good to you\n[01:49.27] And can he do to you the things that I do?\n[01:54.19] Oh no, I can take you higher\n[01:58.28] Oh-oh-oh, I'm on fire\n[02:24.19] Sometimes it's like someone took a knife, baby, edgy and dull\n[02:27.94] And cut a six-inch valley through the middle of my skull\n[02:34.90] At night, I wake up with the sheets soaking wet\n[02:37.12] And a freight train running through the middle of my head\n[02:40.29] Only you can cool my desire\n[02:46.21] Oh-oh-oh, I'm on fire\n[02:51.23] Oh-oh-oh, I'm on fire\n[02:56.40] Oh-oh-oh, I'm on fire\n[03:01.84] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

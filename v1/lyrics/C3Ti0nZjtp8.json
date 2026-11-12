@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "C3Ti0nZjtp8",
+      "videoId": "C3Ti0nZjtp8",
+      "songTitle": "Avicii - Levels",
+      "artistName": "Avicii",
+      "albumName": "Avicii - Levels",
+      "durationSeconds": 199,
+      "plainLyric": "Oh, sometimes\nI get a good feeling, yeah\nGet a feeling that I never, never\nNever, never had before, no, no\nI get a good feeling, yeah\n\nOh, sometimes\nI get a good feeling, yeah\nGet a feeling that I never, never\nNever, never had before, no,no\nI get a good feeling, yeah",
+      "syncedLyrics": "[01:24.08] Oh, sometimes\n[01:27.20] I get a good feeling, yeah\n[01:31.88] Get a feeling that I never, never\n[01:34.68] Never, never had before, no, no\n[01:36.75] I get a good feeling, yeah\n[01:39.34] Oh, sometimes\n[01:42.59] I get a good feeling, yeah\n[01:47.34] Get a feeling that I never, never\n[01:49.51] Never, never had before, no,no\n[01:52.19] I get a good feeling, yeah\n[01:53.78] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

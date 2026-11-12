@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "ZMr4LlAv4m0",
+      "videoId": "ZMr4LlAv4m0",
+      "songTitle": "Bibi Blocksberg Lied",
+      "artistName": "Bibi Blocksberg",
+      "albumName": "Bibi Blocksberg, Folge 157: Team Blocksberg",
+      "durationSeconds": 89,
+      "plainLyric": "Da ist ja Bibi, sie fliegt auf ihrem Besen\nHallo Bibi, hallo Bibi Blocksberg\nWas schwarz ist hext sie weiss\nWas kalt ist heiss\nWas leer ist, wird randvoll\nWas dünn ist hext sie dick\nWas schlampig schick\nWas blöd ist, das wird toll\nEne mene 1, 2, 3, ja das ist Hexerei\nEne mene 1, 2, 3, flieg los Kartoffelbrei\nHex, Hex\nBibi Blocksberg die kleine Hex\nKann so manches wovon ihr traümt\nUnd sie wird euch immer helfen\nDenn sie ist euer Bester Freund\nBibi Blocksberg du kleine Hexe\nKomm und zeig uns was du kannst\nWir mögen deine Streiche\nWie du hext, wie du lachst, wie du tanzt\nKomm zu uns, Bibi Blocksberg\nSei unser Freund, Bibi Blocksberg\nWir sind gespannt, Bibi Blocksberg\nWas du heute wieder machst",
+      "syncedLyrics": "[00:06.93] Da ist ja Bibi, sie fliegt auf ihrem Besen\n[00:10.95] Hallo Bibi, hallo Bibi Blocksberg\n[00:14.97] Was schwarz ist hext sie weiss\n[00:17.68] Was kalt ist heiss\n[00:19.60] Was leer ist, wird randvoll\n[00:22.28] Was dünn ist hext sie dick\n[00:24.32] Was schlampig schick\n[00:26.52] Was blöd ist, das wird toll\n[00:29.09] Ene mene 1, 2, 3, ja das ist Hexerei\n[00:36.68] Ene mene 1, 2, 3, flieg los Kartoffelbrei\n[00:43.20] Hex, Hex\n[00:45.10] Bibi Blocksberg die kleine Hex\n[00:48.67] Kann so manches wovon ihr traümt\n[00:52.33] Und sie wird euch immer helfen\n[00:55.86] Denn sie ist euer Bester Freund\n[00:59.13] Bibi Blocksberg du kleine Hexe\n[01:02.95] Komm und zeig uns was du kannst\n[01:06.25] Wir mögen deine Streiche\n[01:10.19] Wie du hext, wie du lachst, wie du tanzt\n[01:14.67] Komm zu uns, Bibi Blocksberg\n[01:18.07] Sei unser Freund, Bibi Blocksberg\n[01:21.77] Wir sind gespannt, Bibi Blocksberg\n[01:24.47] Was du heute wieder machst\n[01:28.03] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

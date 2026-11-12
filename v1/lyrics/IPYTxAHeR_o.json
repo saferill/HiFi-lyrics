@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "IPYTxAHeR_o",
+      "videoId": "IPYTxAHeR_o",
+      "songTitle": "Martin Garrix - Animals",
+      "artistName": "Martin Garrix",
+      "albumName": "Martin Garrix - Animals",
+      "durationSeconds": 188,
+      "plainLyric": "We're the fuckin' animals!\n\nWe're the fuckin' animals!",
+      "syncedLyrics": "[01:28.58] We're the fuckin' animals!\n[02:31.95] We're the fuckin' animals!\n[03:11.54] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

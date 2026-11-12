@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "1m3zADGGJBQ",
+      "videoId": "1m3zADGGJBQ",
+      "songTitle": "nothing",
+      "artistName": "Steve Lacy",
+      "albumName": "Steve Lacy",
+      "durationSeconds": 150,
+      "plainLyric": "'Cause, nothin'\nCan keep you off my mind\nMind\nNothin'\nCan keep you off my mind\nMine\n\nI'm still excited\nEven though it's one-sided\nI think we could've been something\nMaybe it's just timing, ah\nReally don't like silence\nWhen we don't speak for a while, I get feral\nLike I'm out of water\n\nYou keep on runnin'\nYou keep on runnin'\n\n'Cause, nothin'\nCan keep you off my mind\nMind\nNothin'\nCan keep you off my mind\nMine, mine (mine)\n\n(Mine) oh, mine\n(Mine) oh, mine\n(Mine) oh, mine\nMine (mine)\nMine\nMine\nYou're mine\nYou're mine",
+      "syncedLyrics": "[00:15.33]'Cause, nothin'\n[00:19.68]Can keep you off my mind\n[00:27.31]Mind\n[00:31.43]Nothin'\n[00:34.82]Can keep you off my mind\n[00:43.04]Mine\n[00:46.32]I'm still excited\n[00:49.84]Even though it's one-sided\n[00:52.88]I think we could've been something\n[00:57.60]Maybe it's just timing, ah\n[01:01.48]Really don't like silence\n[01:03.59]When we don't speak for a while, I get feral\n[01:07.35]Like I'm out of water\n[01:10.15]You keep on runnin'\n[01:13.79]You keep on runnin'\n[01:17.04]'Cause, nothin'\n[01:21.02]Can keep you off my mind\n[01:29.10]Mind\n[01:32.86]Nothin'\n[01:36.53]Can keep you off my mind\n[01:44.33]Mine, mine (mine)\n[01:48.65](Mine) oh, mine\n[01:52.19](Mine) oh, mine\n[01:55.94](Mine) oh, mine\n[01:59.78]Mine (mine)\n[02:06.84]Mine\n[02:11.44]Mine\n[02:14.90]You're mine\n[02:18.49]You're mine\n[02:20.95]",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
