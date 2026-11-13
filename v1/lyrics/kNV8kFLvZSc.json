@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "kNV8kFLvZSc",
+      "videoId": "kNV8kFLvZSc",
+      "songTitle": "Jealous (remix)",
+      "artistName": "Nick Jonas",
+      "albumName": "Nick Jonas",
+      "durationSeconds": 222,
+      "plainLyric": "I turn my cheer music up\nAnd I'm puffing my chest\nI'm getting red in the face\nYou can call me obsessed\nIt's not your fault that they hover\nI mean no disrespect\nIt's my right to be hellish\nI still get jealous, jealous, jealous\n\nI turn my cheer music up\nAnd I'm puffing my chest\nI'm getting red in the face\nYou can call me obsessed\nIt's not your fault that they hover\nI mean no disrespect\nIt's my right to be hellish\nI still get jealous, jealous, jealous\n\nIt's not your fault that they hover\nI mean no disrespect\nIt's my right to be hellish\nI still get jealous",
+      "syncedLyrics": "[00:30.66] I turn my cheer music up\n[00:33.44] And I'm puffing my chest\n[00:35.55] I'm getting red in the face\n[00:38.24] You can call me obsessed\n[00:40.71] It's not your fault that they hover\n[00:43.27] I mean no disrespect\n[00:45.78] It's my right to be hellish\n[00:48.72] I still get jealous, jealous, jealous\n[01:33.78] I turn my cheer music up\n[01:35.86] And I'm puffing my chest\n[01:38.02] I'm getting red in the face\n[01:40.03] You can call me obsessed\n[01:42.41] It's not your fault that they hover\n[01:44.97] I mean no disrespect\n[01:47.20] It's my right to be hellish\n[01:50.29] I still get jealous, jealous, jealous\n[02:44.50] It's not your fault that they hover\n[02:47.53] I mean no disrespect\n[02:50.34] It's my right to be hellish\n[02:53.18] I still get jealous\n[03:42.46] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

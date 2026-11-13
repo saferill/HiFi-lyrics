@@ -5,6 +5,10 @@ on:
     - cron: '0 */2 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: hifi-lyrics-sync-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -13,9 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-      - name: Run Auto-Sync & Commit
+          python-version: '3.11'
+      - name: Run Auto-Sync, Validate & Commit
         run: bash scripts/sync-lyrics.sh

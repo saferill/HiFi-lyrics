@@ -1,36 +1,40 @@
 # HiFi Synced Lyrics Repository (`HiFi-lyrics`)
 
-Community-curated and automated synchronized lyrics database for **[HiFi Music](https://github.com/saferill/HiFi)**.
+Community-curated and automated lyrics database for **[HiFi Music](https://github.com/saferill/HiFi)**.
 
-Provides millisecond-accurate, time-synced (`LINE_SYNCED`) lyrics formatted for seamless real-time scrolling and lyric highlighting directly inside the HiFi mobile and desktop players.
+Provides both time-synced (`LINE_SYNCED`, supporting 1-, 2-, and 3-digit fractional timestamps) and plain-text (`UNSYNCED`) lyrics via static GitHub Raw JSON endpoints.
 
 ---
 
 ## Architecture & Endpoints
 
-All files are hosted statically via GitHub raw storage, acting as a high-performance, zero-latency serverless lyrics CDN:
+Static catalog reads use GitHub Raw storage (read-only):
 
 * **Single Track Lookup Endpoint**:
   ```
   https://raw.githubusercontent.com/saferill/HiFi-lyrics/refs/heads/main/v1/lyrics/{videoId}.json
   ```
-  where `{videoId}` is the 11-character YouTube video ID (e.g. `7Jm2Il2U-c0.json`).
+  where `{videoId}` is a valid 11-character YouTube video ID (`[A-Za-z0-9_-]{11}`, e.g. `7Jm2Il2U-c0.json`).
 
 * **Catalog Index & Health Status**:
   ```
   https://raw.githubusercontent.com/saferill/HiFi-lyrics/refs/heads/main/v1/index.json
   ```
+  - `total_tracks`: count of `.json` lyric files (`index_basis: "video_id_files"`).
+  - `unique_songs`: count of unique normalized `(artistName, songTitle)` pairs.
+  - `synced_tracks` / `unsynced_tracks` / `flagged_tracks`: catalog breakdown from `scripts/validate-lyrics.py`.
 
-* **Translated Lyrics Endpoint (Optional)**:
+* **Translated Lyrics Endpoint (Optional / Community-Contributed)**:
   ```
   https://raw.githubusercontent.com/saferill/HiFi-lyrics/refs/heads/main/v1/translated/{videoId}/{language}.json
   ```
+  *Note:* `v1/translated/` is optional and only populated when community-contributed files are committed; GitHub Raw is read-only and does not serve dynamic insert, vote, or AI translation mutations.
 
 ---
 
 ## Lyric File Specification
 
-Each lyric file follows the exact `BaseResponse<List<LyricsResponse>>` schema expected by `SimpMusicLyricsClient`:
+Each lyric file follows the `BaseResponse<List<LyricsResponse>>` schema expected by `HiFiLyricsClient`:
 
 ```json
 {
@@ -63,24 +67,29 @@ Each lyric file follows the exact `BaseResponse<List<LyricsResponse>>` schema ex
 ```
 .
 ├── v1/
-│   ├── index.json                 # Repository health, catalog statistics, and index status
+│   ├── index.json                 # Catalog statistics & validation summary
 │   ├── lyrics/
-│   │   └── <videoId>.json         # Synced lyrics keyed by YouTube videoId (e.g., 7Jm2Il2U-c0.json)
-│   └── translated/
-│       └── <videoId>/<lang>.json  # Localized line-by-line translated lyrics (id, en, ja, etc.)
+│   │   └── <videoId>.json         # Synced or unsynced lyrics keyed by YouTube videoId
+│   └── translated/                # Optional community-contributed translations
 ├── scripts/
-│   ├── sync-lyrics.py             # Multi-source harvesting script with rate-limiting & deduplication
-│   └── sync-lyrics.sh             # Shell runner for CI/CD
+│   ├── lyrics_common.py           # Shared HTML parser, matcher, retry/rate-limit, atomic writer & validator
+│   ├── sync-lyrics.py             # Main harvesting script
+│   ├── harvest-lyrics.py          # Consolidated legacy entrypoint -> sync-lyrics.py
+│   ├── validate-lyrics.py         # Catalog auditor, safe fixer, and index updater
+│   └── sync-lyrics.sh             # Shell runner for CI/CD (pushes to current branch)
+├── tests/
+│   └── test_lyrics_pipeline.py    # Offline unit tests (mocked HTTP, temp dirs)
 └── .github/workflows/
-    └── sync-lyrics.yml            # Scheduled daily automation (02:00 UTC)
+    └── sync-lyrics.yml            # Scheduled every 2 hours (0 */2 * * *) with concurrency guard
 ```
 
 ---
 
-## Automated Daily Sync (Bot Pipeline)
+## Automated Sync (Bot Pipeline)
 
-A scheduled GitHub Actions workflow (`.github/workflows/sync-lyrics.yml`) runs daily to:
-1. Fetch latest daily & weekly music charts (Indonesia, Global, Billboard, K-Pop, J-Pop).
-2. Harvest high-precision timestamped `.lrc` lyrics from [LRCLIB](https://lrclib.net/).
-3. Query YouTube Innertube to resolve official audio & video IDs.
-4. Auto-commit and push updates back to `main`.
+`.github/workflows/sync-lyrics.yml` is scheduled every 2 hours (`0 */2 * * *`, best-effort on GitHub Actions) and supports `workflow_dispatch`:
+1. Fetches Spotify chart HTML from Kworb using `HTMLParser` + entity decoding and combines with curated seed tracks.
+2. Queries [LRCLIB](https://lrclib.net/) and YouTube Innertube with rate-limiting, timeouts, and bounded retries (`429` / `5xx`).
+3. Validates title, artist, version markers (rejecting mismatched live/cover/remix/karaoke videos), and duration before saving.
+4. Protects existing curated or synced lyrics via per-`videoId` locks and atomic file writes.
+5. Validates the catalog and updates `v1/index.json` only when catalog metrics change.

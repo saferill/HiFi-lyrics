@@ -1,11 +1,21 @@
 {
-  "videoId": "jfKfPfyJRdk",
-  "title": "Lofi Hip Hop Radio",
-  "syncType": "LINE_SYNCED",
-  "lines": [
+  "success": true,
+  "error": null,
+  "data": [
     {
-      "startTimeMs": "0",
-      "words": "♪ (Lofi beats to relax/study to) ♪"
+      "id": "jfKfPfyJRdk",
+      "videoId": "jfKfPfyJRdk",
+      "songTitle": "Lofi Hip Hop Radio",
+      "artistName": "",
+      "albumName": "",
+      "durationSeconds": 0,
+      "plainLyric": "♪ (Lofi beats to relax/study to) ♪",
+      "syncedLyrics": "",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
     }
   ]
 }

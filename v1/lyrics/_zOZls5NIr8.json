@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "_zOZls5NIr8",
+      "videoId": "_zOZls5NIr8",
+      "songTitle": "BAD BUNNY - NUEVAYoL",
+      "artistName": "papi drumz",
+      "albumName": "BAD BUNNY - NUEVAYoL",
+      "durationSeconds": 166,
+      "plainLyric": "¡Nueva York!",
+      "syncedLyrics": "[00:00.10] ¡Nueva York!\n[00:02.42] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

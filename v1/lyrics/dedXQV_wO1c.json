@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "dedXQV_wO1c",
+      "videoId": "dedXQV_wO1c",
+      "songTitle": "Rain Sounds for Sleeping, Pt. 06 (Continuous No Gaps)",
+      "artistName": "White Noise Radiance, Rain Sounds",
+      "albumName": "10 Hours of Continuous Rain Sounds for Sleeping",
+      "durationSeconds": 360,
+      "plainLyric": "",
+      "syncedLyrics": "",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
