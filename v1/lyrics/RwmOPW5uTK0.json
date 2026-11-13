@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "RwmOPW5uTK0",
+      "videoId": "RwmOPW5uTK0",
+      "songTitle": "Soda Stereo - De Música Ligera",
+      "artistName": "Soda Stereo",
+      "albumName": "Soda Stereo - De Música Ligera",
+      "durationSeconds": 211,
+      "plainLyric": "Ella durmió al calor de las masas\nY yo desperté queriendo soñarla\nAlgún tiempo atrás pensé en escribirle\nQue nunca sorteé las trampas del amor\n\nDe aquel amor\nDe música ligera\nNada nos libra\nNada más queda\n\nNo le enviaré cenizas de rosas\nNi pienso evitar un roce secreto\n\nDe aquel amor\nDe música ligera\nNada nos libra\nNada más queda\n\nDe aquel amor\nDe música ligera\nNada nos libra\nNada más queda\nNada más...\n\nNada más queda\nNada más queda\nNada más queda\nNada más queda",
+      "syncedLyrics": "[00:23.41] Ella durmió al calor de las masas\n[00:30.92] Y yo desperté queriendo soñarla\n[00:38.90] Algún tiempo atrás pensé en escribirle\n[00:46.57] Que nunca sorteé las trampas del amor\n[00:54.35] De aquel amor\n[00:57.04] De música ligera\n[01:02.01] Nada nos libra\n[01:04.95] Nada más queda\n[01:08.40] \n[01:25.20] No le enviaré cenizas de rosas\n[01:32.98] Ni pienso evitar un roce secreto\n[01:40.86] De aquel amor\n[01:43.68] De música ligera\n[01:48.74] Nada nos libra\n[01:51.48] Nada más queda\n[01:55.54] \n[02:27.22] De aquel amor\n[02:29.95] De música ligera\n[02:34.96] Nada nos libra\n[02:37.81] Nada más queda\n[02:41.75] Nada más...\n[02:45.10] \n[02:49.95] Nada más queda\n[02:53.53] Nada más queda\n[02:57.38] Nada más queda\n[03:00.94] Nada más queda\n[03:02.27] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

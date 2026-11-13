@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "lE0BL4TO-mE",
+      "videoId": "lE0BL4TO-mE",
+      "songTitle": "Hanya Untuk-Mu",
+      "artistName": "Ten2Five",
+      "albumName": "3",
+      "durationSeconds": 210,
+      "plainLyric": "Inikah rasanya bila ku sedang jatuh cinta\nSetiap hela nafasku bahagia\nMengenal hatimu hadirkan indahnya dunia\nKau bawa irama cinta di jiwa\nSemua yang kumau hanyalah dirimu satu\nKaulah jawaban semua doa\nSemua yang kurasa rindu dalam asa didekap cinta\nHatiku untukmu\nHaruskah diriku bertanya pada bintang - bintang\nPantaskah ku mengharap cintanya\nSemua yang kumau hanyalah dirimu satu\nKaulah pelita di dalam jiwa\nSemua yang kurasa rindu dalam asa di dekap cinta\nHatiku untukmu\nHanyalah untukmu",
+      "syncedLyrics": "[00:21.48] Inikah rasanya bila ku sedang jatuh cinta\n[00:33.10] Setiap hela nafasku bahagia\n[00:44.20] Mengenal hatimu hadirkan indahnya dunia\n[00:55.58] Kau bawa irama cinta di jiwa\n[01:06.81] Semua yang kumau hanyalah dirimu satu\n[01:18.29] Kaulah jawaban semua doa\n[01:29.57] Semua yang kurasa rindu dalam asa didekap cinta\n[01:40.67] Hatiku untukmu\n[02:11.96] Haruskah diriku bertanya pada bintang - bintang\n[02:22.99] Pantaskah ku mengharap cintanya\n[02:34.51] Semua yang kumau hanyalah dirimu satu\n[02:45.65] Kaulah pelita di dalam jiwa\n[02:57.31] Semua yang kurasa rindu dalam asa di dekap cinta\n[03:08.46] Hatiku untukmu\n[03:16.28] Hanyalah untukmu",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

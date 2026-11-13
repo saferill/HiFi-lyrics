@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "-1itAgQs-KA",
+      "videoId": "-1itAgQs-KA",
+      "songTitle": "foo fighters - everlong",
+      "artistName": "foo fighters",
+      "albumName": "foo fighters - everlong",
+      "durationSeconds": 250,
+      "plainLyric": "Hello\nI've waited here for you\nEverlong\nTonight\nI throw myself into\nAnd out of the red, out of her head, she sang\n\nCome down\nAnd waste away with me\nDown with me\nSlow how\nYou wanted it to be\n\nI'm over my head, out of her head she sang\n\nAnd I wonder, when I sing along with you\nIf everything could ever feel this real forever\nIf anything could ever be this good again\nThe only thing I'll ever ask of you\nYou gotta promise not to stop when I say when\nShe sang\n\nBreathe out\nSo I can breathe you in\nHold you in\nAnd now\nI know you've always been\n\nOut of your head, out of my head I sang\n\nAnd I wonder when I sing along with you\nIf everything could ever feel this real forever\nIf anything could ever be this good again\nThe only thing I'll ever ask of you\nYou gotta promise not to stop when I say when\nShe sang\n\nAnd I wonder\nIf everything could ever feel this real forever\nIf anything could ever be this good again\nThe only thing I'll ever ask of you\nYou gotta promise not to stop when I say when",
+      "syncedLyrics": "[00:31.78] Hello\n[00:34.40] I've waited here for you\n[00:38.63] Everlong\n[00:42.47] Tonight\n[00:44.86] I throw myself into\n[00:49.26] And out of the red, out of her head, she sang\n[00:55.06] \n[01:03.61] Come down\n[01:06.14] And waste away with me\n[01:10.52] Down with me\n[01:14.17] Slow how\n[01:17.01] You wanted it to be\n[01:21.05] I'm over my head, out of her head she sang\n[01:26.65] \n[01:28.98] And I wonder, when I sing along with you\n[01:37.33] If everything could ever feel this real forever\n[01:43.39] If anything could ever be this good again\n[01:49.45] The only thing I'll ever ask of you\n[01:52.56] You gotta promise not to stop when I say when\n[01:57.31] She sang\n[02:00.22] \n[02:09.08] Breathe out\n[02:11.57] So I can breathe you in\n[02:15.79] Hold you in\n[02:19.72] And now\n[02:22.20] I know you've always been\n[02:26.42] Out of your head, out of my head I sang\n[02:31.68] \n[02:34.39] And I wonder when I sing along with you\n[02:42.67] If everything could ever feel this real forever\n[02:48.72] If anything could ever be this good again\n[02:54.83] The only thing I'll ever ask of you\n[02:57.95] You gotta promise not to stop when I say when\n[03:02.80] She sang\n[03:05.61] \n[03:30.11] And I wonder\n[03:34.14] If everything could ever feel this real forever\n[03:39.90] If anything could ever be this good again\n[03:46.54] The only thing I'll ever ask of you\n[03:49.62] You gotta promise not to stop when I say when\n[03:52.57] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

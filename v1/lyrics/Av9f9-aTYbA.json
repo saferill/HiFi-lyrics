@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "Av9f9-aTYbA",
+      "videoId": "Av9f9-aTYbA",
+      "songTitle": "JANE DOE",
+      "artistName": "Kenshi Yonezu",
+      "albumName": "Kenshi Yonezu",
+      "durationSeconds": 236,
+      "plainLyric": "marude kono sekai de futari dake mitai da ne\nnante sukoshi dake yume wo mite shimatta dake\ntsumazaki ni tsukiakari hanataba no kaori yubi ni fureru yubi\nsayonara mou ikanakya nani mo kamo wasurete\ngarasu no ue wo hadashi no mama aruku\nitamu goto ni chi ga nagarete ochite iku\nonegai sono akai ashiato wo tadotte ai ni kite\nsabita puuru ni hanatarete iku kingyo\nkutsubako no naka kakushita ringo\nshinabita kimi no hada ni nokoru kizuato\ninu no you ni oyoida maigo\ndoko ni iru no (koko ni iru yo)\nnani wo shite iru no (zutto miteru yo)\nkono yo wo machigai de mitasou\nsoba ni ite yo asobi ni ikou yo\ndoko ni iru no\ngarasu no ue wo hadashi no mama aruku\nitamu goto ni chi ga nagarete ochite iku\nonegai sono akai ashiato wo tadotte ai ni kite\nmarude kono sekai de futari dake mitai da ne\nnante sukoshi dake yume wo mite shimatta dake\n",
+      "syncedLyrics": "[00:14.45] marude kono sekai de futari dake mitai da ne\n[00:25.16] nante sukoshi dake yume wo mite shimatta dake\n[00:35.80] tsumazaki ni tsukiakari hanataba no kaori yubi ni fureru yubi\n[00:46.57] sayonara mou ikanakya nani mo kamo wasurete\n[00:58.73] garasu no ue wo hadashi no mama aruku\n[01:04.30] itamu goto ni chi ga nagarete ochite iku\n[01:11.07] onegai sono akai ashiato wo tadotte ai ni kite\n[01:32.35] sabita puuru ni hanatarete iku kingyo\n[01:37.72] kutsubako no naka kakushita ringo\n[01:42.60] shinabita kimi no hada ni nokoru kizuato\n[01:48.55] inu no you ni oyoida maigo\n[01:53.31] doko ni iru no (koko ni iru yo)\n[01:56.17] nani wo shite iru no (zutto miteru yo)\n[01:58.81] kono yo wo machigai de mitasou\n[02:04.06] soba ni ite yo asobi ni ikou yo\n[02:09.99] doko ni iru no\n[02:16.70] garasu no ue wo hadashi no mama aruku\n[02:22.37] itamu goto ni chi ga nagarete ochite iku\n[02:28.70] onegai sono akai ashiato wo tadotte ai ni kite\n[02:50.13] marude kono sekai de futari dake mitai da ne\n[03:00.91] nante sukoshi dake yume wo mite shimatta dake\n[03:10.51]",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

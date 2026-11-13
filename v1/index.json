@@ -1,13 +1,13 @@
 {
   "service": "HiFi Lyrics Repository",
   "version": "2.0.0",
-  "last_updated": "2026-11-13T16:37:23Z",
-  "total_tracks": 5991,
+  "last_updated": "2026-11-13T22:01:45Z",
+  "total_tracks": 8002,
   "index_basis": "video_id_files",
-  "valid_tracks": 5985,
-  "unique_songs": 2687,
-  "synced_tracks": 5892,
-  "unsynced_tracks": 93,
+  "valid_tracks": 7996,
+  "unique_songs": 2884,
+  "synced_tracks": 7875,
+  "unsynced_tracks": 121,
   "flagged_tracks": 6,
   "status": "online"
 }

@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "-7vjJYco7hM",
+      "videoId": "-7vjJYco7hM",
+      "songTitle": "Last Night on Earth",
+      "artistName": "Green Day",
+      "albumName": "Last Night on Earth",
+      "durationSeconds": 237,
+      "plainLyric": "I text a postcard sent to you\nDid it go through?\nSendin' all my love to you\n\nYou are the moonlight of my life\nEvery night\nGivin' all my love to you\n\nMy beatin' heart belongs to you\n\nI walked for miles 'til I found you\nI'm here to honour you\nIf I lose everything in the fire\nI'm sendin' all my love to you\n\nWith every breath that I am worth\nHere on Earth\nI'm sendin' all my love to you\n\nSo if you dare to second-guess\nYou can rest\nAssured that all my love's for you\n\nMy beatin' heart belongs to you\nI walked for miles 'til I found you\n\nI'm here to honour you\nIf I lose everything in the fire\nI'm sendin' all my love to you\n\nMy beatin' heart belongs to you\nI walked for miles 'til I found you\n\nI'm here to honour you\nIf I lose everything in the fire\nDid I ever make it through?",
+      "syncedLyrics": "[00:16.25] I text a postcard sent to you\n[00:20.64] Did it go through?\n[00:24.61] Sendin' all my love to you\n[00:29.01] \n[00:32.45] You are the moonlight of my life\n[00:36.80] Every night\n[00:40.88] Givin' all my love to you\n[00:45.40] \n[00:48.26] My beatin' heart belongs to you\n[00:54.02] \n[00:56.38] I walked for miles 'til I found you\n[01:02.06] \n[01:04.24] I'm here to honour you\n[01:07.88] If I lose everything in the fire\n[01:13.12] I'm sendin' all my love to you\n[01:17.93] \n[01:32.25] With every breath that I am worth\n[01:36.96] Here on Earth\n[01:40.41] I'm sendin' all my love to you\n[01:48.15] So if you dare to second-guess\n[01:52.65] You can rest\n[01:56.23] Assured that all my love's for you\n[02:04.28] My beatin' heart belongs to you\n[02:12.15] I walked for miles 'til I found you\n[02:18.16] \n[02:20.29] I'm here to honour you\n[02:23.62] If I lose everything in the fire\n[02:29.14] I'm sendin' all my love to you\n[02:34.73] \n[03:04.38] My beatin' heart belongs to you\n[03:12.25] I walked for miles 'til I found you\n[03:20.13] I'm here to honour you\n[03:23.93] If I lose everything in the fire\n[03:29.28] Did I ever make it through?\n[03:32.53] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
