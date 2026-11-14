@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "7RfHYiNRe6c",
+      "videoId": "7RfHYiNRe6c",
+      "songTitle": "Feel So Close",
+      "artistName": "Calvin Harris",
+      "albumName": "Calvin Harris - Feel So Close",
+      "durationSeconds": 207,
+      "plainLyric": "I feel so close to you right now, it's a force field\nI wear my heart upon my sleeve like a big deal\nYour love pours down on me\nSurrounds me like a waterfall\nAnd there's no stopping us right now\nI feel so close to you right now\n\nI feel so close to you right now, it's a force field\nI wear my heart upon my sleeve like a big deal\nYour love pours down on me\nSurrounds me like a waterfall\nAnd there's no stopping us right now\nI feel so close to you right now\n\nAnd there's no stopping us right now\n\nAnd there's no stopping us right now\nAnd there's no stopping us right now\n\nI feel so close to you right now",
+      "syncedLyrics": "[00:01.00] I feel so close to you right now, it's a force field\n[00:08.21] I wear my heart upon my sleeve like a big deal\n[00:15.42] Your love pours down on me\n[00:18.53] Surrounds me like a waterfall\n[00:23.19] And there's no stopping us right now\n[00:26.58] I feel so close to you right now\n[00:31.44] \n[01:16.07] I feel so close to you right now, it's a force field\n[01:23.15] I wear my heart upon my sleeve like a big deal\n[01:30.20] Your love pours down on me\n[01:33.53] Surrounds me like a waterfall\n[01:38.14] And there's no stopping us right now\n[01:42.06] I feel so close to you right now\n[01:46.63] \n[02:19.89] And there's no stopping us right now\n[02:23.93] \n[02:27.08] And there's no stopping us right now\n[02:31.56] \n[02:34.30] And there's no stopping us right now\n[02:38.78] \n[02:42.09] I feel so close to you right now\n[02:44.39] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
