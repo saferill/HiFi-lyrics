@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "Dkq3LD-4pmM",
+      "videoId": "Dkq3LD-4pmM",
+      "songTitle": "Holly Jolly Christmas",
+      "artistName": "Michael Bublé",
+      "albumName": "Holly Jolly Christmas",
+      "durationSeconds": 122,
+      "plainLyric": "Have a holly, jolly Christmas\nIt's the best time of the year\nNow I don't know if there'll be snow\nBut have a cup of cheer\n\nHave a holly, jolly Christmas\nAnd when you walk down the street\nSay hello to friends you know\nAnd everyone you meet\n\nOh, ho, the mistletoe\nIt's hung where you can see\nSomebody waits for you\nKiss her once for me\n\nHave a holly, jolly Christmas\nAnd in case you didn't hear\nOh, by golly\nHave a holly, jolly Christmas this year\n\nOh, ho, the mistletoe\nIt's hung where you can see\nSomebody waits for you\nKiss her once for me\n\nHave a holly, jolly Christmas\nAnd in case you didn't hear\nOh, by golly\nHave a holly, jolly Christmas this year",
+      "syncedLyrics": "[00:05.93] Have a holly, jolly Christmas\n[00:09.16] It's the best time of the year\n[00:12.56] Now I don't know if there'll be snow\n[00:15.89] But have a cup of cheer\n[00:18.52] Have a holly, jolly Christmas\n[00:21.88] And when you walk down the street\n[00:25.38] Say hello to friends you know\n[00:28.46] And everyone you meet\n[00:32.23] Oh, ho, the mistletoe\n[00:34.64] It's hung where you can see\n[00:38.04] Somebody waits for you\n[00:41.27] Kiss her once for me\n[00:44.15] Have a holly, jolly Christmas\n[00:47.29] And in case you didn't hear\n[00:50.68] Oh, by golly\n[00:52.13] Have a holly, jolly Christmas this year\n[00:58.50] \n[01:22.56] Oh, ho, the mistletoe\n[01:25.70] It's hung where you can see\n[01:29.67] Somebody waits for you\n[01:32.38] Kiss her once for me\n[01:35.11] Have a holly, jolly Christmas\n[01:38.37] And in case you didn't hear\n[01:41.80] Oh, by golly\n[01:43.15] Have a holly, jolly Christmas this year\n[01:53.27] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "MXCPIj5Bdv0",
+      "videoId": "MXCPIj5Bdv0",
+      "songTitle": "Creedence Clearwater Revival - Have You Ever Seen The Rain",
+      "artistName": "Creedence Clearwater Revival",
+      "albumName": "Creedence Clearwater Revival - Have You Ever Seen The Rain",
+      "durationSeconds": 184,
+      "plainLyric": "Someone told me long ago\nThere's a calm before the storm\nI know, it's been comin' for some time\n\nWhen it's over, so they say\nIt'll rain on a sunny day\nI know, shining down like water\n\nI wanna know, have you ever seen the rain?\nI wanna know, have you ever seen the rain\nComin' down on a sunny day?\n\nYesterday and days before\nSun is cold and rain is hard\nI know, been that way for all my time\n'Til forever on it goes\nThrough the circle, fast and slow\nI know, it can't stop, I wonder\n\nI wanna know, have you ever seen the rain?\nI wanna know, have you ever seen the rain\n\nComin' down on a sunny day?\n\nYeah!\nI wanna know, have you ever seen the rain?\nI wanna know, have you ever seen the rain\nComin' down on a sunny day?",
+      "syncedLyrics": "[00:13.48] Someone told me long ago\n[00:17.43] There's a calm before the storm\n[00:20.82] I know, it's been comin' for some time\n[00:29.94] When it's over, so they say\n[00:34.10] It'll rain on a sunny day\n[00:37.29] I know, shining down like water\n[00:44.17] \n[00:46.97] I wanna know, have you ever seen the rain?\n[00:55.22] I wanna know, have you ever seen the rain\n[01:03.63] Comin' down on a sunny day?\n[01:11.42] Yesterday and days before\n[01:15.51] Sun is cold and rain is hard\n[01:18.99] I know, been that way for all my time\n[01:27.91] 'Til forever on it goes\n[01:32.03] Through the circle, fast and slow\n[01:35.47] I know, it can't stop, I wonder\n[01:42.30] \n[01:44.95] I wanna know, have you ever seen the rain?\n[01:53.22] I wanna know, have you ever seen the rain\n[02:01.42] Comin' down on a sunny day?\n[02:07.18] Yeah!\n[02:09.89] I wanna know, have you ever seen the rain?\n[02:18.00] I wanna know, have you ever seen the rain\n[02:26.44] Comin' down on a sunny day?\n[02:30.36] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
