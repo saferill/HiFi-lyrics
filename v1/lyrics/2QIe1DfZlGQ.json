@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "2QIe1DfZlGQ",
+      "videoId": "2QIe1DfZlGQ",
+      "songTitle": "Belanova - Rosa Pastel",
+      "artistName": "Belanova",
+      "albumName": "Belanova - Rosa Pastel",
+      "durationSeconds": 189,
+      "plainLyric": "Sí, yo quería ser esa mujer\nLa madre de tus hijos\nY juntos caminar hacia el altar\nDirecto hacia la muerte\n\nY al final, ni hablar\nLos dos nos destruimos\nY al final, ¿qué tal?\nTú y yo ya no existimos\n\nNo, no quiero ser esa mujer\nElla se fue a un abismo\nTú no eres aquel que prometió\nSería mi superhéroe\nY que todo acabó, no queda más\nSeremos dos extraños\nYo te olvidaré, me olvidarás\nHasta nunca\n\n¿Y dónde quedó ese botón\nQue lleva a la felicidad?\nLuna de miel, rosa pastel\nClichés y tonterías\n\nY al final, ni hablar\nLos dos nos destruimos\nY al final, ¿qué tal?\nTú y yo ya no existimos\n\nNo, no quiero ser esa mujer\nElla se fue a un abismo\nY tú no eres aquel que prometió\nSería mi superhéroe\nY que todo acabó, no queda más\nSeremos dos extraños\nYo te olvidaré, me olvidarás\nHasta nunca",
+      "syncedLyrics": "[00:24.51] Sí, yo quería ser esa mujer\n[00:29.10] La madre de tus hijos\n[00:32.12] Y juntos caminar hacia el altar\n[00:36.89] Directo hacia la muerte\n[00:39.57] Y al final, ni hablar\n[00:44.22] Los dos nos destruimos\n[00:47.23] Y al final, ¿qué tal?\n[00:51.85] Tú y yo ya no existimos\n[00:54.40] No, no quiero ser esa mujer\n[00:59.21] Ella se fue a un abismo\n[01:02.04] Tú no eres aquel que prometió\n[01:06.60] Sería mi superhéroe\n[01:09.45] Y que todo acabó, no queda más\n[01:14.33] Seremos dos extraños\n[01:17.07] Yo te olvidaré, me olvidarás\n[01:22.11] Hasta nunca\n[01:25.68] \n[01:32.03] ¿Y dónde quedó ese botón\n[01:36.62] Que lleva a la felicidad?\n[01:40.53] Luna de miel, rosa pastel\n[01:44.21] Clichés y tonterías\n[01:47.24] Y al final, ni hablar\n[01:51.68] Los dos nos destruimos\n[01:54.50] Y al final, ¿qué tal?\n[01:59.28] Tú y yo ya no existimos\n[02:02.08] No, no quiero ser esa mujer\n[02:06.75] Ella se fue a un abismo\n[02:09.44] Y tú no eres aquel que prometió\n[02:14.29] Sería mi superhéroe\n[02:16.84] Y que todo acabó, no queda más\n[02:21.62] Seremos dos extraños\n[02:24.69] Yo te olvidaré, me olvidarás\n[02:29.75] Hasta nunca\n[02:31.85] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
