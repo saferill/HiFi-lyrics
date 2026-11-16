@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "PH-k_fqpcco",
+      "videoId": "PH-k_fqpcco",
+      "songTitle": "Coldplay - A Sky Full Of Stars",
+      "artistName": "Coldplay",
+      "albumName": "Coldplay - A Sky Full Of Stars",
+      "durationSeconds": 254,
+      "plainLyric": "'Cause you're a sky, 'cause you're a sky full of stars\nI'm gonna give you my heart\n'Cause you're a sky, 'cause you're a sky full of stars\n'Cause you light up the path\n\nI don't care, go on and tear me apart\nI don't care if you do, ooh-ooh, ooh\n'Cause in a sky, 'cause in a sky full of stars\nI think I saw you\n\n'Cause you're a sky, 'cause you're a sky full of stars\nI wanna die in your arms, oh, oh-oh\n'Cause you get lighter the more it gets dark\nI'm gonna give you my heart, oh\n\nI don't care, go on and tear me apart\nI don't care if you do, ooh-ooh, ooh\n'Cause in a sky, 'cause in a sky full of stars\nI think I see you\nI think I see you\n\n'Cause you're a sky, you're a sky full of stars\nSuch a heavenly view\nYou're such a heavenly view\nYeah, yeah, yeah, ooh",
+      "syncedLyrics": "[00:16.60] 'Cause you're a sky, 'cause you're a sky full of stars\n[00:24.83] I'm gonna give you my heart\n[00:30.12] \n[00:32.57] 'Cause you're a sky, 'cause you're a sky full of stars\n[00:40.16] 'Cause you light up the path\n[00:44.23] \n[00:47.65] I don't care, go on and tear me apart\n[00:55.53] I don't care if you do, ooh-ooh, ooh\n[01:03.25] 'Cause in a sky, 'cause in a sky full of stars\n[01:08.64] I think I saw you\n[01:22.22] \n[01:41.70] 'Cause you're a sky, 'cause you're a sky full of stars\n[01:49.56] I wanna die in your arms, oh, oh-oh\n[01:56.47] 'Cause you get lighter the more it gets dark\n[02:04.81] I'm gonna give you my heart, oh\n[02:12.49] I don't care, go on and tear me apart\n[02:19.95] I don't care if you do, ooh-ooh, ooh\n[02:27.91] 'Cause in a sky, 'cause in a sky full of stars\n[02:33.43] I think I see you\n[02:38.36] \n[02:40.81] I think I see you\n[02:48.14] \n[03:36.77] 'Cause you're a sky, you're a sky full of stars\n[03:42.29] Such a heavenly view\n[03:49.59] You're such a heavenly view\n[03:55.79] Yeah, yeah, yeah, ooh\n[03:58.52] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}

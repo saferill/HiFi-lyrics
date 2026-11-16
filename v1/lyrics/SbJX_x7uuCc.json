@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "SbJX_x7uuCc",
+      "videoId": "SbJX_x7uuCc",
+      "songTitle": "Elvis Presley - Blue Christmas",
+      "artistName": "Elvis Presley",
+      "albumName": "Elvis Presley - The Essential [Disc 2]",
+      "durationSeconds": 148,
+      "plainLyric": "I'll have a blue Christmas without you\nI'll be so blue just thinking about you\nDecorations of red on a green Christmas tree\nWon't be the same, dear, if you're not here with me\n\nAnd when those blue snowflakes start fallin'\nThat's when those blue memories start callin'\nYou'll be doin' all right with your Christmas of white\nBut I'll have a blue, blue, blue, blue Christmas\n\nYou'll be doin' all right with your Christmas of white\nBut I'll have a blue, blue, blue, blue Christmas",
+      "syncedLyrics": "[00:01.03] I'll have a blue Christmas without you\n[00:11.15] I'll be so blue just thinking about you\n[00:20.30] \n[00:22.44] Decorations of red on a green Christmas tree\n[00:31.52] \n[00:34.10] Won't be the same, dear, if you're not here with me\n[00:41.86] And when those blue snowflakes start fallin'\n[00:52.27] That's when those blue memories start callin'\n[01:03.31] You'll be doin' all right with your Christmas of white\n[01:13.88] But I'll have a blue, blue, blue, blue Christmas\n[01:21.55] \n[01:43.25] You'll be doin' all right with your Christmas of white\n[01:53.91] But I'll have a blue, blue, blue, blue Christmas\n[01:59.63] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
