@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "K3JTfs-u_FI",
+      "videoId": "K3JTfs-u_FI",
+      "songTitle": "White Christmas - 1947 Version",
+      "artistName": "Bing Crosby",
+      "albumName": "White Christmas",
+      "durationSeconds": 177,
+      "plainLyric": "I'm dreaming of a white Christmas\nJust like the ones I used to know\nWhere the treetops glisten\nAnd children listen\nTo hear sleigh bells in the snow\n\nI'm dreaming of a white Christmas\nWith every Christmas card I write\nMay your days be merry and bright\nAnd may all your Christmases be white\n\nI'm dreaming of a white Christmas\nJust like the ones I used to know\nWhere the treetops glisten\nAnd children listen\nTo hear sleigh bells in the snow\n\nI'm dreaming of a white Christmas\nWith every Christmas card I write\nMay your days be merry and bright\nAnd may all your Christmases be white",
+      "syncedLyrics": "[00:10.56] I'm dreaming of a white Christmas\n[00:21.55] Just like the ones I used to know\n[00:30.03] Where the treetops glisten\n[00:35.75] And children listen\n[00:40.74] To hear sleigh bells in the snow\n[00:51.40] I'm dreaming of a white Christmas\n[01:02.96] With every Christmas card I write\n[01:10.77] May your days be merry and bright\n[01:21.91] And may all your Christmases be white\n[01:33.88] I'm dreaming of a white Christmas\n[01:44.35] Just like the ones I used to know\n[01:52.72] Where the treetops glisten\n[01:58.44] And children listen\n[02:03.31] To hear sleigh bells in the snow\n[02:13.98] I'm dreaming of a white Christmas\n[02:24.20] With every Christmas card I write\n[02:32.49] May your days be merry and bright\n[02:44.89] And may all your Christmases be white\n[02:59.62] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
