@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "dw1zkwVant0",
+      "videoId": "dw1zkwVant0",
+      "songTitle": "Rudolph The Red-Nosed Reindeer (Finale)",
+      "artistName": "Burl Ives",
+      "albumName": "Burl Ives - Rudolph The Red-Nosed Reindeer",
+      "durationSeconds": 83,
+      "plainLyric": "Rudolph the Red Nosed Reindeer\nHad a very shiny nose\nAnd if you ever saw it\nYou would even say it glows\n...\nAll of the other reindeer\nUsed to laugh and call him names\nThey never let poor Rudolph\nJoin in any reindeer games\n...\nThen one foggy Christmas Eve\nSanta came to say\n\"Rudolph with your nose so bright,\nWon't you guide my sleigh tonight\"\n...\nThen how the Reindeer loved hiim\nAs they shouted out with glee,\n\"Rudolph the Red Nosed Reindeer,\nYou'll go down in history!\"\n...\nRudolph the Red Nosed Reindeer,\nYou'll go down in\nHistory.",
+      "syncedLyrics": "[00:07.31] Rudolph the Red Nosed Reindeer\n[00:10.17] Had a very shiny nose\n[00:11.99] And if you ever saw it\n[00:14.69] You would even say it glows\n[00:16.49] ...\n[00:17.32] All of the other reindeer\n[00:20.13] Used to laugh and call him names\n[00:22.88] They never let poor Rudolph\n[00:25.55] Join in any reindeer games\n[00:26.44] ...\n[00:28.30] Then one foggy Christmas Eve\n[00:31.09] Santa came to say\n[00:33.72] \"Rudolph with your nose so bright,\n[00:35.68] Won't you guide my sleigh tonight\"\n[00:38.35] ...\n[00:39.23] Then how the Reindeer loved hiim\n[00:41.91] As they shouted out with glee,\n[00:43.72] \"Rudolph the Red Nosed Reindeer,\n[00:46.59] You'll go down in history!\"\n[00:50.17] ...\n[01:07.45] Rudolph the Red Nosed Reindeer,\n[01:08.34] You'll go down in\n[01:10.11] History.\n[01:18.36] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
