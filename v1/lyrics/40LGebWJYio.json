@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "40LGebWJYio",
+      "videoId": "40LGebWJYio",
+      "songTitle": "Joy To The World - Remastered 1999",
+      "artistName": "Nat King Cole",
+      "albumName": "Christmas With Nat King Cole",
+      "durationSeconds": 85,
+      "plainLyric": "Joy to the world the Lord is come\nLet earth receive her King\nLet every heart prepare him room\nAnd Heaven and nature sing\nAnd Heaven and nature sing\nAnd Heaven, and heaven and nature sing\n\nJoy to the world the Saviour reigns\nLet men, their songs employ\nWhile fields and floods rocks, hills and plains\nRepeat the sounding joy\nRepeat the sounding joy\nRepeat, repeat the sounding joy\n\nHe rules the world with truth and grace\nAnd makes the nations prove\nThe glories of his righteousness\nAnd wonders of his love\nAnd wonders of his love\nAnd wonders, and wonders of his love",
+      "syncedLyrics": "[00:04.94]Joy to the world\n[00:07.04]The Lord is come\n[00:09.34]Let earth receive her King\n[00:14.08]Let every heart prepare him room\n[00:18.84]And heaven and nature sing\n[00:21.31]And heaven and nature sing\n[00:23.77]And heaven, and heaven and nature sing\n[00:28.82]Joy to the world\n[00:30.82]The Savior reigns\n[00:33.24]Let men (let men), their songs (their songs) employ\n[00:37.86]While fields and floods\n[00:40.27]Rocks, hills and plains\n[00:42.59]Repeat the sounding joy\n[00:45.08]Repeat the sounding joy\n[00:47.42]Repeat, repeat the sounding joy\n[00:52.42]He rules the world\n[00:54.58]With truth and grace\n[00:56.88]And makes the nations prove\n[01:01.50]The glories of his righteousness\n[01:06.41]And wonders of his love\n[01:08.76]And wonders of his love\n[01:10.13]And wonders, and wonders of his love",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
