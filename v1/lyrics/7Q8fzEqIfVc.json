@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "id": "7Q8fzEqIfVc",
+      "videoId": "7Q8fzEqIfVc",
+      "songTitle": "What A Wonderful World - Single Version",
+      "artistName": "Louis Armstrong",
+      "albumName": "Priceless Jazz 3 : Louis Armstrong",
+      "durationSeconds": 137,
+      "plainLyric": "I see trees of green, red roses too\nI see them bloom for me and you\nAnd I think to myself what a wonderful world\n\nI see skies of blue and clouds of white\nThe bright blessed day, the dark sacred night\nAnd I think to myself what a wonderful world\n\nThe colors of the rainbow so pretty in the sky\nAre also on the faces of people going by\nI see friends shaking hands saying how do you do\nThey're really saying I love you\n\nI hear babies crying, I watch them grow\nThey'll learn much more than I'll never know\nAnd I think to myself what a wonderful world\nYes, I think to myself what a wonderful world\n\nOh, yes",
+      "syncedLyrics": "[00:07.29] I see trees of green, red roses too\n[00:15.02] I see them bloom for me and you\n[00:20.76] And I think to myself what a wonderful world\n[00:29.12] \n[00:33.77] I see skies of blue and clouds of white\n[00:41.55] The bright blessed day, the dark sacred night\n[00:47.46] And I think to myself what a wonderful world\n[00:56.59] \n[01:00.80] The colors of the rainbow so pretty in the sky\n[01:07.47] Are also on the faces of people going by\n[01:13.73] I see friends shaking hands saying how do you do\n[01:21.40] They're really saying I love you\n[01:27.57] I hear babies crying, I watch them grow\n[01:34.95] They'll learn much more than I'll never know\n[01:41.12] And I think to myself what a wonderful world\n[01:49.38] \n[01:52.50] Yes, I think to myself what a wonderful world\n[02:05.65] \n[02:10.05] Oh, yes\n[02:15.01] ",
+      "richSyncLyrics": null,
+      "trackType": null,
+      "vote": 100,
+      "contributor": "LRCLIB / HiFi Community",
+      "contributorEmail": "lyrics@hifi.org"
+    }
+  ]
+}
